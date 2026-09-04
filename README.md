@@ -17,6 +17,21 @@ datosabiertos.gob.pe -> recursos locales -> SQLite -> JSON agregado -> React/Vit
 - `data/uncp.sqlite3`: base local generada; no se versiona.
 - `observatorio-uncp/`: aplicacion web.
 
+## Desde cero (despues de clonar)
+
+Los datos crudos (`data/datasets/`) y la base `data/uncp.sqlite3` no se
+versionan por privacidad. Para regenerar todo sin usar scripts extra:
+
+```bash
+python scripts/download_uncp_datasets.py --download
+python scripts/import_uncp_sqlite.py
+python scripts/build_uncp_dashboard.py
+```
+
+Eso descarga los listados del portal, crea el esquema y construye la base SQLite
+de forma atomica (con `PRAGMA integrity_check`, sin romper la base anterior),
+y regenera el JSON agregado que consume el frontend.
+
 ## Uso habitual
 
 Procesar los archivos que ya estan descargados:

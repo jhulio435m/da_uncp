@@ -1,0 +1,6980 @@
+[
+  {
+    "path": "data/datasets/01-listado-de-ingresantes-al-periodo-academico-2025-ii-universidad-nacional-del-centro-del-pe/01-descargar.csv",
+    "dataset_dir": "data/datasets/01-listado-de-ingresantes-al-periodo-academico-2025-ii-universidad-nacional-del-centro-del-pe",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 884,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "PERIODO_INGRESANTE",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "ESCUELA",
+      "SEXO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 884,
+      "PERIODO_INGRESANTE": 1,
+      "DEPARTAMENTO": 11,
+      "PROVINCIA": 30,
+      "DISTRITO": 135,
+      "TIPO_ADMISION": 10,
+      "ESCUELA": 38,
+      "SEXO": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          884
+        ]
+      ],
+      "PERIODO_INGRESANTE": [
+        [
+          "2025-2",
+          884
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          788
+        ],
+        [
+          "HUANCAVELICA",
+          54
+        ],
+        [
+          "LIMA",
+          19
+        ],
+        [
+          "PASCO",
+          9
+        ],
+        [
+          "AYACUCHO",
+          6
+        ],
+        [
+          "-",
+          2
+        ],
+        [
+          "APURIMAC",
+          2
+        ],
+        [
+          "UCAYALI",
+          1
+        ],
+        [
+          "CALLAO",
+          1
+        ],
+        [
+          "ICA",
+          1
+        ],
+        [
+          "HUANUCO",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          592
+        ],
+        [
+          "JAUJA",
+          52
+        ],
+        [
+          "CHUPACA",
+          36
+        ],
+        [
+          "CONCEPCION",
+          33
+        ],
+        [
+          "SATIPO",
+          24
+        ],
+        [
+          "TAYACAJA",
+          20
+        ],
+        [
+          "TARMA",
+          19
+        ],
+        [
+          "HUANCAVELICA",
+          17
+        ],
+        [
+          "LIMA",
+          14
+        ],
+        [
+          "YAULI",
+          12
+        ],
+        [
+          "JUNIN",
+          10
+        ],
+        [
+          "CHANCHAMAYO",
+          10
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "NORMAL ORDINARIO",
+          588
+        ],
+        [
+          "CEPRE ADMISION",
+          241
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          25
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          12
+        ],
+        [
+          "SEGUNDA CARRERA",
+          6
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          6
+        ],
+        [
+          "TRASLADO INTERNO",
+          2
+        ],
+        [
+          "TRASLADO EXTERNO",
+          2
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          1
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          1
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "ECONOMÍA",
+          50
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          45
+        ],
+        [
+          "INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          44
+        ],
+        [
+          "ARQUITECTURA",
+          43
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          42
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          41
+        ],
+        [
+          "INGENIERÍA QUÍMICA",
+          40
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          39
+        ],
+        [
+          "ENFERMERÍA",
+          37
+        ],
+        [
+          "TRABAJO SOCIAL",
+          37
+        ],
+        [
+          "INGENIERÍA QUÍMICA AMBIENTAL",
+          35
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          34
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          473
+        ],
+        [
+          "FEMENINO",
+          411
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/02-listado-de-estudiantes-beneficiarios-del-servicio-de-comedor-universitario-en-el-periodo/01-descargar.csv",
+    "dataset_dir": "data/datasets/02-listado-de-estudiantes-beneficiarios-del-servicio-de-comedor-universitario-en-el-periodo",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 1268,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "BENEFICIO_DESAYUNO",
+      "BENEFICIO_ALMUERZO",
+      "PERIODO_ACADEMICO",
+      "ESCUELA_PROFESIONAL",
+      "ESTADO_MATRICULA",
+      "CICLO_ACADEMICO",
+      "SEXO",
+      "EDAD",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 1268,
+      "BENEFICIO_DESAYUNO": 2,
+      "BENEFICIO_ALMUERZO": 1,
+      "PERIODO_ACADEMICO": 1,
+      "ESCUELA_PROFESIONAL": 21,
+      "ESTADO_MATRICULA": 1,
+      "CICLO_ACADEMICO": 11,
+      "SEXO": 2,
+      "EDAD": 27,
+      "DEPARTAMENTO": 7,
+      "PROVINCIA": 21,
+      "DISTRITO": 116
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260626",
+          1268
+        ]
+      ],
+      "BENEFICIO_DESAYUNO": [
+        [
+          "NO",
+          972
+        ],
+        [
+          "SI",
+          296
+        ]
+      ],
+      "BENEFICIO_ALMUERZO": [
+        [
+          "SI",
+          1268
+        ]
+      ],
+      "PERIODO_ACADEMICO": [
+        [
+          "2026-1",
+          1268
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "INGENIERIA EN INDUSTRIAS ALIMENTARIAS",
+          176
+        ],
+        [
+          "INGENIERIA CIVIL",
+          156
+        ],
+        [
+          "ENFERMERIA",
+          143
+        ],
+        [
+          "INGENIERIA MECANICA",
+          100
+        ],
+        [
+          "INGENIERIA FORESTAL TROPICAL",
+          97
+        ],
+        [
+          "EDUCACION INICIAL",
+          65
+        ],
+        [
+          "INGENIERIA EN INDUSTRIAS ALIMENTARIAS TROPICAL",
+          59
+        ],
+        [
+          "ARQUITECTURA",
+          57
+        ],
+        [
+          "EDUCACION SECUNDARIA: LENGUAS, LITERATURA Y COMUNICACION",
+          51
+        ],
+        [
+          "EDUCACION SECUNDARIA: FILOSOFIA, CIENCIAS SOCIALES Y RELACIONES HUMANAS",
+          47
+        ],
+        [
+          "EDUCACION FISICA Y PSICOMOTRICIDAD",
+          45
+        ],
+        [
+          "AGRONOMIA",
+          44
+        ]
+      ],
+      "ESTADO_MATRICULA": [
+        [
+          "HABILITADO",
+          1268
+        ]
+      ],
+      "CICLO_ACADEMICO": [
+        [
+          "3",
+          270
+        ],
+        [
+          "5",
+          230
+        ],
+        [
+          "7",
+          202
+        ],
+        [
+          "9",
+          158
+        ],
+        [
+          "6",
+          97
+        ],
+        [
+          "4",
+          93
+        ],
+        [
+          "8",
+          88
+        ],
+        [
+          "10",
+          82
+        ],
+        [
+          "2",
+          27
+        ],
+        [
+          "1",
+          11
+        ],
+        [
+          "11",
+          10
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          656
+        ],
+        [
+          "FEMENINO",
+          612
+        ]
+      ],
+      "EDAD": [
+        [
+          "20",
+          235
+        ],
+        [
+          "19",
+          177
+        ],
+        [
+          "21",
+          171
+        ],
+        [
+          "22",
+          151
+        ],
+        [
+          "23",
+          122
+        ],
+        [
+          "18",
+          94
+        ],
+        [
+          "24",
+          69
+        ],
+        [
+          "26",
+          66
+        ],
+        [
+          "66",
+          52
+        ],
+        [
+          "25",
+          48
+        ],
+        [
+          "27",
+          22
+        ],
+        [
+          "29",
+          15
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          1217
+        ],
+        [
+          "HUANCAVELICA",
+          38
+        ],
+        [
+          "LIMA",
+          7
+        ],
+        [
+          "ICA",
+          2
+        ],
+        [
+          "HUANUCO",
+          2
+        ],
+        [
+          "CALLAO",
+          1
+        ],
+        [
+          "CUSCO",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          774
+        ],
+        [
+          "SATIPO",
+          162
+        ],
+        [
+          "CHUPACA",
+          68
+        ],
+        [
+          "JAUJA",
+          62
+        ],
+        [
+          "JUNIN",
+          60
+        ],
+        [
+          "CONCEPCION",
+          38
+        ],
+        [
+          "TARMA",
+          29
+        ],
+        [
+          "CHANCHAMAYO",
+          21
+        ],
+        [
+          "TAYACAJA",
+          17
+        ],
+        [
+          "HUANCAVELICA",
+          14
+        ],
+        [
+          "LIMA",
+          5
+        ],
+        [
+          "ACOBAMBA",
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/03-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2025-i-universid/01-descargar.csv",
+    "dataset_dir": "data/datasets/03-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2025-i-universid",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 384,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "FACULTAD",
+      "FECHA_MATRICULA",
+      "FECHA_EGRESO",
+      "DENOMINACION_GRADO",
+      "PROGRAMA_ESTUDIO",
+      "MODALIDAD_OBTENCION",
+      "FECHA_RESOLUCION"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 384,
+      "FACULTAD": 23,
+      "FECHA_MATRICULA": 17,
+      "FECHA_EGRESO": 17,
+      "DENOMINACION_GRADO": 47,
+      "PROGRAMA_ESTUDIO": 1,
+      "MODALIDAD_OBTENCION": 2,
+      "FECHA_RESOLUCION": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260603",
+          384
+        ]
+      ],
+      "FACULTAD": [
+        [
+          "FACULTAD DE EDUCACIÓN",
+          72
+        ],
+        [
+          "FACULTAD DE ENFERMERÍA",
+          35
+        ],
+        [
+          "FACULTAD DE CIENCIAS APLICADAS",
+          23
+        ],
+        [
+          "FACULTAD DE CIENCIAS FORESTALES Y DEL AMBIENTE",
+          21
+        ],
+        [
+          "FACULTAD DE INGENIERÍA QUÍMICA",
+          20
+        ],
+        [
+          "FACULTAD DE INGENIERÍA ELÉCTRICA Y ELECTRÓNICA",
+          20
+        ],
+        [
+          "FACULTAD DE CONTABILIDAD",
+          19
+        ],
+        [
+          "FACULTAD DE ARQUITECTURA",
+          18
+        ],
+        [
+          "FACULTAD DE CIENCIAS DE LA ADMINISTRACIÓN",
+          18
+        ],
+        [
+          "FACULTAD DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS",
+          18
+        ],
+        [
+          "FACULTAD DE INGENIERÍA MECÁNICA",
+          16
+        ],
+        [
+          "FACULTAD DE CIENCIAS AGRARIAS",
+          14
+        ]
+      ],
+      "FECHA_MATRICULA": [
+        [
+          "02/01/2019",
+          109
+        ],
+        [
+          "01/01/2020",
+          61
+        ],
+        [
+          "01/01/2019",
+          56
+        ],
+        [
+          "01/01/2018",
+          48
+        ],
+        [
+          "02/01/2017",
+          24
+        ],
+        [
+          "02/01/2016",
+          16
+        ],
+        [
+          "01/01/2015",
+          16
+        ],
+        [
+          "01/01/2016",
+          14
+        ],
+        [
+          "01/01/2017",
+          12
+        ],
+        [
+          "01/01/2014",
+          9
+        ],
+        [
+          "01/01/2013",
+          6
+        ],
+        [
+          "02/01/2012",
+          4
+        ]
+      ],
+      "FECHA_EGRESO": [
+        [
+          "08/11/2024",
+          165
+        ],
+        [
+          "04/01/2024",
+          72
+        ],
+        [
+          "08/08/2023",
+          51
+        ],
+        [
+          "02/01/2021",
+          23
+        ],
+        [
+          "02/01/2022",
+          18
+        ],
+        [
+          "23/02/2023",
+          14
+        ],
+        [
+          "01/01/2022",
+          11
+        ],
+        [
+          "02/01/2020",
+          9
+        ],
+        [
+          "01/02/2025",
+          5
+        ],
+        [
+          "19/02/2024",
+          4
+        ],
+        [
+          "02/01/2019",
+          4
+        ],
+        [
+          "01/01/2021",
+          2
+        ]
+      ],
+      "PROGRAMA_ESTUDIO": [
+        [
+          "CICLO REGULAR",
+          384
+        ]
+      ],
+      "MODALIDAD_OBTENCION": [
+        [
+          "Curso Trabajo de Investigación",
+          242
+        ],
+        [
+          "Automático",
+          142
+        ]
+      ],
+      "FECHA_RESOLUCION": [
+        [
+          "24/06/2025",
+          238
+        ],
+        [
+          "22/07/2025",
+          146
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/04-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2025-ii/01-descargar.csv",
+    "dataset_dir": "data/datasets/04-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2025-ii",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 514,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "FACULTAD",
+      "FECHA_MATRICULA",
+      "FECHA_EGRESO",
+      "DENOMINACION_GRADO",
+      "PROGRAMA_ESTUDIO",
+      "MODALIDAD_OBTENCION",
+      "FECHA_RESOLUCION"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 514,
+      "FACULTAD": 23,
+      "FECHA_MATRICULA": 27,
+      "FECHA_EGRESO": 23,
+      "DENOMINACION_GRADO": 47,
+      "PROGRAMA_ESTUDIO": 1,
+      "MODALIDAD_OBTENCION": 2,
+      "FECHA_RESOLUCION": 4
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260603",
+          514
+        ]
+      ],
+      "FACULTAD": [
+        [
+          "FACULTAD DE EDUCACIÓN",
+          108
+        ],
+        [
+          "FACULTAD DE INGENIERÍA QUÍMICA",
+          45
+        ],
+        [
+          "FACULTAD DE INGENIERÍA MECÁNICA",
+          42
+        ],
+        [
+          "FACULTAD DE INGENIERÍA DE MINAS",
+          37
+        ],
+        [
+          "FACULTAD DE CIENCIAS FORESTALES Y DEL AMBIENTE",
+          27
+        ],
+        [
+          "FACULTAD DE ENFERMERÍA",
+          26
+        ],
+        [
+          "FACULTAD DE CIENCIAS DE LA COMUNICACIÓN",
+          25
+        ],
+        [
+          "FACULTAD DE CIENCIAS DE LA ADMINISTRACIÓN",
+          23
+        ],
+        [
+          "FACULTAD DE INGENIERÍA CIVIL",
+          22
+        ],
+        [
+          "FACULTAD DE INGENIERÍA ELÉCTRICA Y ELECTRÓNICA",
+          21
+        ],
+        [
+          "FACULTAD DE CIENCIAS AGRARIAS",
+          20
+        ],
+        [
+          "FACULTAD DE INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          18
+        ]
+      ],
+      "FECHA_MATRICULA": [
+        [
+          "02/01/2019",
+          114
+        ],
+        [
+          "01/01/2020",
+          94
+        ],
+        [
+          "01/01/2018",
+          72
+        ],
+        [
+          "01/01/2019",
+          68
+        ],
+        [
+          "01/01/2015",
+          33
+        ],
+        [
+          "02/01/2017",
+          26
+        ],
+        [
+          "02/01/2016",
+          24
+        ],
+        [
+          "01/01/2016",
+          17
+        ],
+        [
+          "01/01/2014",
+          17
+        ],
+        [
+          "01/01/2017",
+          15
+        ],
+        [
+          "01/01/2013",
+          6
+        ],
+        [
+          "01/01/2011",
+          5
+        ]
+      ],
+      "FECHA_EGRESO": [
+        [
+          "08/11/2024",
+          187
+        ],
+        [
+          "04/01/2024",
+          77
+        ],
+        [
+          "08/08/2023",
+          65
+        ],
+        [
+          "02/01/2021",
+          35
+        ],
+        [
+          "17/03/2025",
+          28
+        ],
+        [
+          "23/02/2023",
+          21
+        ],
+        [
+          "01/02/2025",
+          18
+        ],
+        [
+          "01/01/2022",
+          16
+        ],
+        [
+          "02/01/2022",
+          14
+        ],
+        [
+          "02/01/2020",
+          11
+        ],
+        [
+          "01/01/2020",
+          9
+        ],
+        [
+          "01/01/2021",
+          7
+        ]
+      ],
+      "PROGRAMA_ESTUDIO": [
+        [
+          "CICLO REGULAR",
+          514
+        ]
+      ],
+      "MODALIDAD_OBTENCION": [
+        [
+          "Curso Trabajo de Investigación",
+          301
+        ],
+        [
+          "Automático",
+          213
+        ]
+      ],
+      "FECHA_RESOLUCION": [
+        [
+          "13/10/2025",
+          163
+        ],
+        [
+          "18/11/2025",
+          141
+        ],
+        [
+          "30/12/2025",
+          141
+        ],
+        [
+          "26/08/2025",
+          69
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/05-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2026-i-universid/01-descargar.csv",
+    "dataset_dir": "data/datasets/05-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2026-i-universid",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 252,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "FACULTAD",
+      "FECHA_MATRICULA",
+      "FECHA_EGRESO",
+      "DENOMINACION_GRADO",
+      "PROGRAMA_ESTUDIO",
+      "MODALIDAD_OBTENCION",
+      "FECHA_RESOLUCION"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 252,
+      "FACULTAD": 24,
+      "FECHA_MATRICULA": 24,
+      "FECHA_EGRESO": 18,
+      "DENOMINACION_GRADO": 37,
+      "PROGRAMA_ESTUDIO": 1,
+      "MODALIDAD_OBTENCION": 2,
+      "FECHA_RESOLUCION": 4
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260603",
+          252
+        ]
+      ],
+      "FECHA_EGRESO": [
+        [
+          "08/08/2025",
+          72
+        ],
+        [
+          "08/11/2024",
+          72
+        ],
+        [
+          "17/03/2025",
+          26
+        ],
+        [
+          "04/01/2024",
+          24
+        ],
+        [
+          "08/08/2023",
+          16
+        ],
+        [
+          "02/01/2021",
+          10
+        ],
+        [
+          "23/02/2023",
+          8
+        ],
+        [
+          "01/01/2021",
+          5
+        ],
+        [
+          "02/01/2022",
+          5
+        ],
+        [
+          "01/01/2022",
+          3
+        ],
+        [
+          "02/01/2015",
+          2
+        ],
+        [
+          "01/02/2025",
+          2
+        ]
+      ],
+      "PROGRAMA_ESTUDIO": [
+        [
+          "CICLO REGULAR",
+          252
+        ]
+      ],
+      "MODALIDAD_OBTENCION": [
+        [
+          "Curso Trabajo de Investigación",
+          195
+        ],
+        [
+          "Automático",
+          57
+        ]
+      ],
+      "FECHA_RESOLUCION": [
+        [
+          "02/05/2026",
+          158
+        ],
+        [
+          "21/04/2026",
+          64
+        ],
+        [
+          "19/03/2026",
+          22
+        ],
+        [
+          "26/03/2026",
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/06-listado-de-postulantes-al-proceso-de-admisi-c3-b3n-2026-i-universidad-nacional-del-centro/01-descargar.csv",
+    "dataset_dir": "data/datasets/06-listado-de-postulantes-al-proceso-de-admisi-c3-b3n-2026-i-universidad-nacional-del-centro",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 15548,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "ESCUELA",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "PERIODO_APLICANDO",
+      "FECHA_NACIMIENTO",
+      "EDAD",
+      "SEXO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 2001,
+      "ESCUELA": 39,
+      "DEPARTAMENTO": 19,
+      "PROVINCIA": 60,
+      "DISTRITO": 313,
+      "TIPO_ADMISION": 11,
+      "PERIODO_APLICANDO": 1,
+      "FECHA_NACIMIENTO": 2001,
+      "EDAD": 32,
+      "SEXO": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          15548
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "MEDICINA HUMANA",
+          1995
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          1339
+        ],
+        [
+          "ENFERMERÍA",
+          1261
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          911
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          909
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          830
+        ],
+        [
+          "EDUCACIÓN INICIAL",
+          785
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          703
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          583
+        ],
+        [
+          "ARQUITECTURA",
+          534
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          481
+        ],
+        [
+          "ECONOMÍA",
+          445
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          14053
+        ],
+        [
+          "HUANCAVELICA",
+          982
+        ],
+        [
+          "PASCO",
+          216
+        ],
+        [
+          "LIMA",
+          159
+        ],
+        [
+          "AYACUCHO",
+          47
+        ],
+        [
+          "HUANUCO",
+          30
+        ],
+        [
+          "-",
+          15
+        ],
+        [
+          "CUSCO",
+          9
+        ],
+        [
+          "UCAYALI",
+          8
+        ],
+        [
+          "CALLAO",
+          7
+        ],
+        [
+          "ICA",
+          6
+        ],
+        [
+          "APURIMAC",
+          5
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          10010
+        ],
+        [
+          "JAUJA",
+          969
+        ],
+        [
+          "CHUPACA",
+          957
+        ],
+        [
+          "CONCEPCION",
+          546
+        ],
+        [
+          "SATIPO",
+          461
+        ],
+        [
+          "HUANCAVELICA",
+          425
+        ],
+        [
+          "TARMA",
+          384
+        ],
+        [
+          "TAYACAJA",
+          301
+        ],
+        [
+          "CHANCHAMAYO",
+          286
+        ],
+        [
+          "YAULI",
+          253
+        ],
+        [
+          "JUNIN",
+          187
+        ],
+        [
+          "PASCO",
+          141
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          3078
+        ],
+        [
+          "CHILCA",
+          2060
+        ],
+        [
+          "HUANCAYO",
+          1818
+        ],
+        [
+          "HUANCAN",
+          479
+        ],
+        [
+          "CHUPACA",
+          479
+        ],
+        [
+          "SAN AGUSTIN",
+          444
+        ],
+        [
+          "SAPALLANGA",
+          440
+        ],
+        [
+          "PILCOMAYO",
+          427
+        ],
+        [
+          "TARMA",
+          282
+        ],
+        [
+          "SAN JERONIMO DE TUNAN",
+          269
+        ],
+        [
+          "JAUJA",
+          247
+        ],
+        [
+          "CONCEPCION",
+          228
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "NORMAL ORDINARIO",
+          13270
+        ],
+        [
+          "PARTICIPANTE LIBRE",
+          1663
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          231
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          229
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          93
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          33
+        ],
+        [
+          "SEGUNDA CARRERA",
+          11
+        ],
+        [
+          "TRASLADO EXTERNO",
+          5
+        ],
+        [
+          "TRASLADO INTERNO",
+          5
+        ],
+        [
+          "COMUNIDADES INDIGENAS",
+          5
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          3
+        ]
+      ],
+      "PERIODO_APLICANDO": [
+        [
+          "2026-1",
+          15548
+        ]
+      ],
+      "EDAD": [
+        [
+          "17",
+          9196
+        ],
+        [
+          "18",
+          3145
+        ],
+        [
+          "16",
+          1132
+        ],
+        [
+          "19",
+          828
+        ],
+        [
+          "20",
+          377
+        ],
+        [
+          "15",
+          325
+        ],
+        [
+          "21",
+          207
+        ],
+        [
+          "22",
+          112
+        ],
+        [
+          "23",
+          75
+        ],
+        [
+          "24",
+          39
+        ],
+        [
+          "26",
+          22
+        ],
+        [
+          "25",
+          16
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          7928
+        ],
+        [
+          "FEMENINO",
+          7620
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/07-listado-de-postulantes-al-proceso-de-admisi-c3-b3n-2025-ii-universidad-nacional-del-centro/01-descargar.csv",
+    "dataset_dir": "data/datasets/07-listado-de-postulantes-al-proceso-de-admisi-c3-b3n-2025-ii-universidad-nacional-del-centro",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 5172,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "ESCUELA",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "PERIODO_APLICANDO",
+      "FECHA_NACIMIENTO",
+      "EDAD",
+      "SEXO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 2001,
+      "ESCUELA": 38,
+      "DEPARTAMENTO": 16,
+      "PROVINCIA": 40,
+      "DISTRITO": 231,
+      "TIPO_ADMISION": 10,
+      "PERIODO_APLICANDO": 1,
+      "FECHA_NACIMIENTO": 1953,
+      "EDAD": 32,
+      "SEXO": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          5172
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "MEDICINA HUMANA",
+          715
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          427
+        ],
+        [
+          "ENFERMERÍA",
+          410
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          327
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          263
+        ],
+        [
+          "ARQUITECTURA",
+          247
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          241
+        ],
+        [
+          "EDUCACIÓN INICIAL",
+          214
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          202
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          184
+        ],
+        [
+          "ECONOMÍA",
+          177
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          176
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          4741
+        ],
+        [
+          "HUANCAVELICA",
+          263
+        ],
+        [
+          "LIMA",
+          67
+        ],
+        [
+          "PASCO",
+          44
+        ],
+        [
+          "AYACUCHO",
+          23
+        ],
+        [
+          "HUANUCO",
+          11
+        ],
+        [
+          "-",
+          6
+        ],
+        [
+          "CUSCO",
+          4
+        ],
+        [
+          "CALLAO",
+          4
+        ],
+        [
+          "UCAYALI",
+          2
+        ],
+        [
+          "CAJAMARCA",
+          2
+        ],
+        [
+          "APURIMAC",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          3604
+        ],
+        [
+          "JAUJA",
+          301
+        ],
+        [
+          "CHUPACA",
+          297
+        ],
+        [
+          "CONCEPCION",
+          176
+        ],
+        [
+          "SATIPO",
+          148
+        ],
+        [
+          "HUANCAVELICA",
+          100
+        ],
+        [
+          "TAYACAJA",
+          86
+        ],
+        [
+          "TARMA",
+          71
+        ],
+        [
+          "LIMA",
+          59
+        ],
+        [
+          "CHANCHAMAYO",
+          52
+        ],
+        [
+          "JUNIN",
+          50
+        ],
+        [
+          "YAULI",
+          42
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          1162
+        ],
+        [
+          "CHILCA",
+          757
+        ],
+        [
+          "HUANCAYO",
+          646
+        ],
+        [
+          "HUANCAN",
+          174
+        ],
+        [
+          "PILCOMAYO",
+          153
+        ],
+        [
+          "SAPALLANGA",
+          150
+        ],
+        [
+          "CHUPACA",
+          145
+        ],
+        [
+          "SAN AGUSTIN",
+          140
+        ],
+        [
+          "SAN JERONIMO DE TUNAN",
+          87
+        ],
+        [
+          "CONCEPCION",
+          81
+        ],
+        [
+          "JAUJA",
+          76
+        ],
+        [
+          "HUAYUCACHI",
+          75
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "NORMAL ORDINARIO",
+          4136
+        ],
+        [
+          "PARTICIPANTE LIBRE",
+          661
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          164
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          110
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          67
+        ],
+        [
+          "SEGUNDA CARRERA",
+          16
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          11
+        ],
+        [
+          "TRASLADO EXTERNO",
+          4
+        ],
+        [
+          "TRASLADO INTERNO",
+          2
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          1
+        ]
+      ],
+      "PERIODO_APLICANDO": [
+        [
+          "2025-2",
+          5172
+        ]
+      ],
+      "EDAD": [
+        [
+          "18",
+          2119
+        ],
+        [
+          "19",
+          1141
+        ],
+        [
+          "20",
+          557
+        ],
+        [
+          "17",
+          500
+        ],
+        [
+          "21",
+          284
+        ],
+        [
+          "22",
+          145
+        ],
+        [
+          "16",
+          109
+        ],
+        [
+          "23",
+          102
+        ],
+        [
+          "24",
+          50
+        ],
+        [
+          "25",
+          33
+        ],
+        [
+          "15",
+          26
+        ],
+        [
+          "26",
+          25
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          2769
+        ],
+        [
+          "FEMENINO",
+          2403
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/08-listado-de-postulantes-al-proceso-de-admisi-c3-b3n-2025-i-universidad-nacional-del-centro/01-descargar.csv",
+    "dataset_dir": "data/datasets/08-listado-de-postulantes-al-proceso-de-admisi-c3-b3n-2025-i-universidad-nacional-del-centro",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 14475,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "ESCUELA",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "PERIODO_APLICANDO",
+      "FECHA_NACIMIENTO",
+      "EDAD",
+      "SEXO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 2001,
+      "ESCUELA": 38,
+      "DEPARTAMENTO": 19,
+      "PROVINCIA": 58,
+      "DISTRITO": 315,
+      "TIPO_ADMISION": 11,
+      "PERIODO_APLICANDO": 1,
+      "FECHA_NACIMIENTO": 2001,
+      "EDAD": 33,
+      "SEXO": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          14475
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "MEDICINA HUMANA",
+          1995
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          1501
+        ],
+        [
+          "ENFERMERÍA",
+          1173
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          884
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          835
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          700
+        ],
+        [
+          "ARQUITECTURA",
+          658
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          617
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          595
+        ],
+        [
+          "TRABAJO SOCIAL",
+          530
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          494
+        ],
+        [
+          "EDUCACIÓN INICIAL",
+          489
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          13117
+        ],
+        [
+          "HUANCAVELICA",
+          815
+        ],
+        [
+          "PASCO",
+          208
+        ],
+        [
+          "LIMA",
+          184
+        ],
+        [
+          "AYACUCHO",
+          69
+        ],
+        [
+          "HUANUCO",
+          29
+        ],
+        [
+          "-",
+          14
+        ],
+        [
+          "CUSCO",
+          9
+        ],
+        [
+          "ICA",
+          5
+        ],
+        [
+          "UCAYALI",
+          5
+        ],
+        [
+          "CALLAO",
+          5
+        ],
+        [
+          "SAN MARTIN",
+          3
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          9500
+        ],
+        [
+          "JAUJA",
+          911
+        ],
+        [
+          "CHUPACA",
+          779
+        ],
+        [
+          "CONCEPCION",
+          505
+        ],
+        [
+          "SATIPO",
+          502
+        ],
+        [
+          "HUANCAVELICA",
+          336
+        ],
+        [
+          "TARMA",
+          284
+        ],
+        [
+          "TAYACAJA",
+          271
+        ],
+        [
+          "CHANCHAMAYO",
+          252
+        ],
+        [
+          "YAULI",
+          223
+        ],
+        [
+          "JUNIN",
+          161
+        ],
+        [
+          "LIMA",
+          153
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          2893
+        ],
+        [
+          "CHILCA",
+          1956
+        ],
+        [
+          "HUANCAYO",
+          1909
+        ],
+        [
+          "HUANCAN",
+          466
+        ],
+        [
+          "SAN AGUSTIN",
+          405
+        ],
+        [
+          "CHUPACA",
+          372
+        ],
+        [
+          "SAPALLANGA",
+          371
+        ],
+        [
+          "PILCOMAYO",
+          367
+        ],
+        [
+          "JAUJA",
+          266
+        ],
+        [
+          "SAN JERONIMO DE TUNAN",
+          263
+        ],
+        [
+          "CONCEPCION",
+          226
+        ],
+        [
+          "TARMA",
+          224
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "NORMAL ORDINARIO",
+          11977
+        ],
+        [
+          "PARTICIPANTE LIBRE",
+          1886
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          227
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          222
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          93
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          34
+        ],
+        [
+          "COMUNIDADES INDIGENAS",
+          11
+        ],
+        [
+          "SEGUNDA CARRERA",
+          11
+        ],
+        [
+          "TRASLADO INTERNO",
+          8
+        ],
+        [
+          "TRASLADO EXTERNO",
+          5
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          1
+        ]
+      ],
+      "PERIODO_APLICANDO": [
+        [
+          "2025-1",
+          14475
+        ]
+      ],
+      "EDAD": [
+        [
+          "18",
+          8261
+        ],
+        [
+          "19",
+          2600
+        ],
+        [
+          "17",
+          1295
+        ],
+        [
+          "20",
+          885
+        ],
+        [
+          "21",
+          425
+        ],
+        [
+          "16",
+          340
+        ],
+        [
+          "22",
+          187
+        ],
+        [
+          "15",
+          124
+        ],
+        [
+          "23",
+          107
+        ],
+        [
+          "24",
+          78
+        ],
+        [
+          "25",
+          44
+        ],
+        [
+          "27",
+          24
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          7548
+        ],
+        [
+          "FEMENINO",
+          6927
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/09-listado-de-postulantes-al-periodo-academico-2024-ii-universidad-nacional-del-centro-del-pe/01-descargar.csv",
+    "dataset_dir": "data/datasets/09-listado-de-postulantes-al-periodo-academico-2024-ii-universidad-nacional-del-centro-del-pe",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 5344,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "ESCUELA",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "PERIODO_APLICANDO",
+      "FECHA_NACIMIENTO",
+      "EDAD",
+      "SEXO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 2001,
+      "ESCUELA": 38,
+      "DEPARTAMENTO": 19,
+      "PROVINCIA": 47,
+      "DISTRITO": 245,
+      "TIPO_ADMISION": 12,
+      "PERIODO_APLICANDO": 1,
+      "FECHA_NACIMIENTO": 1987,
+      "EDAD": 34,
+      "SEXO": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          5344
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "MEDICINA HUMANA",
+          778
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          476
+        ],
+        [
+          "ENFERMERÍA",
+          421
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          326
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          282
+        ],
+        [
+          "ARQUITECTURA",
+          274
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          262
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          238
+        ],
+        [
+          "INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          211
+        ],
+        [
+          "EDUCACIÓN INICIAL",
+          208
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          208
+        ],
+        [
+          "TRABAJO SOCIAL",
+          195
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          4870
+        ],
+        [
+          "HUANCAVELICA",
+          264
+        ],
+        [
+          "LIMA",
+          87
+        ],
+        [
+          "PASCO",
+          50
+        ],
+        [
+          "AYACUCHO",
+          39
+        ],
+        [
+          "HUANUCO",
+          9
+        ],
+        [
+          "CALLAO",
+          4
+        ],
+        [
+          "ICA",
+          3
+        ],
+        [
+          "TACNA",
+          3
+        ],
+        [
+          "CUSCO",
+          3
+        ],
+        [
+          "AMAZONAS",
+          2
+        ],
+        [
+          "-",
+          2
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          3700
+        ],
+        [
+          "CHUPACA",
+          297
+        ],
+        [
+          "JAUJA",
+          267
+        ],
+        [
+          "CONCEPCION",
+          193
+        ],
+        [
+          "SATIPO",
+          149
+        ],
+        [
+          "HUANCAVELICA",
+          96
+        ],
+        [
+          "TAYACAJA",
+          87
+        ],
+        [
+          "TARMA",
+          83
+        ],
+        [
+          "CHANCHAMAYO",
+          79
+        ],
+        [
+          "LIMA",
+          71
+        ],
+        [
+          "JUNIN",
+          55
+        ],
+        [
+          "YAULI",
+          47
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          1151
+        ],
+        [
+          "CHILCA",
+          814
+        ],
+        [
+          "HUANCAYO",
+          757
+        ],
+        [
+          "HUANCAN",
+          181
+        ],
+        [
+          "CHUPACA",
+          155
+        ],
+        [
+          "SAN AGUSTIN",
+          154
+        ],
+        [
+          "PILCOMAYO",
+          136
+        ],
+        [
+          "SAPALLANGA",
+          130
+        ],
+        [
+          "CONCEPCION",
+          87
+        ],
+        [
+          "JAUJA",
+          77
+        ],
+        [
+          "SAN JERONIMO DE TUNAN",
+          61
+        ],
+        [
+          "HUAYUCACHI",
+          56
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "NORMAL ORDINARIO",
+          4589
+        ],
+        [
+          "PARTICIPANTE LIBRE",
+          676
+        ],
+        [
+          "Segunda Carrera",
+          20
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          19
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          17
+        ],
+        [
+          "Traslado Externo",
+          9
+        ],
+        [
+          "Traslado Interno",
+          5
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          4
+        ],
+        [
+          "TRASLADO EXTERNO",
+          2
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          1
+        ],
+        [
+          "COMUNIDADES INDIGENAS",
+          1
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          1
+        ]
+      ],
+      "PERIODO_APLICANDO": [
+        [
+          "2024-2",
+          5344
+        ]
+      ],
+      "EDAD": [
+        [
+          "19",
+          2059
+        ],
+        [
+          "20",
+          1220
+        ],
+        [
+          "21",
+          601
+        ],
+        [
+          "18",
+          562
+        ],
+        [
+          "22",
+          290
+        ],
+        [
+          "23",
+          158
+        ],
+        [
+          "17",
+          116
+        ],
+        [
+          "24",
+          86
+        ],
+        [
+          "25",
+          48
+        ],
+        [
+          "26",
+          48
+        ],
+        [
+          "27",
+          29
+        ],
+        [
+          "16",
+          27
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          2899
+        ],
+        [
+          "FEMENINO",
+          2445
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/10-listado-de-ingresantes-al-periodo-academico-2025-i-universidad-nacional-del-centro-del-per/01-descargar.csv",
+    "dataset_dir": "data/datasets/10-listado-de-ingresantes-al-periodo-academico-2025-i-universidad-nacional-del-centro-del-per",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 1244,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "PERIODO_INGRESANTE",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "ESCUELA",
+      "SEXO",
+      "EDAD",
+      "FECHA_NACIMIENTO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 1244,
+      "PERIODO_INGRESANTE": 1,
+      "DEPARTAMENTO": 8,
+      "PROVINCIA": 22,
+      "DISTRITO": 118,
+      "TIPO_ADMISION": 11,
+      "ESCUELA": 38,
+      "SEXO": 2,
+      "EDAD": 22,
+      "FECHA_NACIMIENTO": 765
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          1244
+        ]
+      ],
+      "PERIODO_INGRESANTE": [
+        [
+          "2025-1",
+          1244
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          1193
+        ],
+        [
+          "HUANCAVELICA",
+          19
+        ],
+        [
+          "LIMA",
+          14
+        ],
+        [
+          "PASCO",
+          11
+        ],
+        [
+          "LORETO",
+          4
+        ],
+        [
+          "HUANUCO",
+          1
+        ],
+        [
+          "AYACUCHO",
+          1
+        ],
+        [
+          "CUSCO",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          880
+        ],
+        [
+          "CHUPACA",
+          80
+        ],
+        [
+          "JAUJA",
+          70
+        ],
+        [
+          "SATIPO",
+          60
+        ],
+        [
+          "CONCEPCION",
+          39
+        ],
+        [
+          "TARMA",
+          37
+        ],
+        [
+          "CHANCHAMAYO",
+          14
+        ],
+        [
+          "TAYACAJA",
+          14
+        ],
+        [
+          "LIMA",
+          10
+        ],
+        [
+          "JUNIN",
+          9
+        ],
+        [
+          "PASCO",
+          9
+        ],
+        [
+          "YAULI",
+          4
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "NORMAL ORDINARIO",
+          838
+        ],
+        [
+          "CEPRE ADMISION",
+          336
+        ],
+        [
+          "Cooperación Internacional e Intercambio Académico",
+          23
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          16
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          13
+        ],
+        [
+          "PUEBLOS INDÍGENAS Y ORIGINARIOS",
+          7
+        ],
+        [
+          "VICTIMA DE TERRORISMO",
+          7
+        ],
+        [
+          "TRASLADO INTERNO",
+          1
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          1
+        ],
+        [
+          "SEGUNDA CARRERA",
+          1
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          1
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "CONTABILIDAD",
+          63
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          54
+        ],
+        [
+          "ECONOMÍA",
+          53
+        ],
+        [
+          "INGENIERÍA EN INDUSTRIAS ALIMENTARIAS",
+          51
+        ],
+        [
+          "AGRONOMÍA",
+          50
+        ],
+        [
+          "TRABAJO SOCIAL",
+          48
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          45
+        ],
+        [
+          "INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          45
+        ],
+        [
+          "ZOOTECNIA",
+          45
+        ],
+        [
+          "ENFERMERÍA",
+          43
+        ],
+        [
+          "CIENCIAS FORESTALES Y DEL AMBIENTE",
+          42
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          40
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          665
+        ],
+        [
+          "FEMENINO",
+          579
+        ]
+      ],
+      "EDAD": [
+        [
+          "18",
+          609
+        ],
+        [
+          "19",
+          325
+        ],
+        [
+          "20",
+          133
+        ],
+        [
+          "21",
+          63
+        ],
+        [
+          "22",
+          41
+        ],
+        [
+          "23",
+          19
+        ],
+        [
+          "24",
+          17
+        ],
+        [
+          "17",
+          6
+        ],
+        [
+          "27",
+          6
+        ],
+        [
+          "25",
+          5
+        ],
+        [
+          "28",
+          4
+        ],
+        [
+          "30",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/11-listado-de-ingresantes-al-periodo-academico-2024-ii-universidad-nacional-del-centro-del-pe/01-descargar.csv",
+    "dataset_dir": "data/datasets/11-listado-de-ingresantes-al-periodo-academico-2024-ii-universidad-nacional-del-centro-del-pe",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 980,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "PERIODO_INGRESANTE",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "ESCUELA",
+      "SEXO",
+      "EDAD",
+      "FECHA_NACIMIENTO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 980,
+      "PERIODO_INGRESANTE": 1,
+      "DEPARTAMENTO": 10,
+      "PROVINCIA": 31,
+      "DISTRITO": 117,
+      "TIPO_ADMISION": 13,
+      "ESCUELA": 37,
+      "SEXO": 2,
+      "EDAD": 18,
+      "FECHA_NACIMIENTO": 695
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          980
+        ]
+      ],
+      "PERIODO_INGRESANTE": [
+        [
+          "2024-2",
+          980
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          895
+        ],
+        [
+          "HUANCAVELICA",
+          49
+        ],
+        [
+          "LIMA",
+          15
+        ],
+        [
+          "PASCO",
+          9
+        ],
+        [
+          "HUANUCO",
+          3
+        ],
+        [
+          "CALLAO",
+          3
+        ],
+        [
+          "ICA",
+          2
+        ],
+        [
+          "ANCASH",
+          2
+        ],
+        [
+          "PUNO",
+          1
+        ],
+        [
+          "PIURA",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          647
+        ],
+        [
+          "CHUPACA",
+          61
+        ],
+        [
+          "SATIPO",
+          58
+        ],
+        [
+          "JAUJA",
+          41
+        ],
+        [
+          "CONCEPCION",
+          34
+        ],
+        [
+          "HUANCAVELICA",
+          26
+        ],
+        [
+          "TARMA",
+          25
+        ],
+        [
+          "CHANCHAMAYO",
+          13
+        ],
+        [
+          "YAULI",
+          12
+        ],
+        [
+          "LIMA",
+          10
+        ],
+        [
+          "CHURCAMPA",
+          8
+        ],
+        [
+          "PASCO",
+          7
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "ADMISION 2023-2",
+          690
+        ],
+        [
+          "PARTICIPANTE LIBRE",
+          229
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          20
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          16
+        ],
+        [
+          "Cooperación Internacional e Intercambio Académico",
+          12
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          4
+        ],
+        [
+          "SEGUNDA CARRERA",
+          2
+        ],
+        [
+          "CEPRE ADMISION",
+          2
+        ],
+        [
+          "TRASLADO EXTERNO",
+          1
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          1
+        ],
+        [
+          "Centro Pre Universitario",
+          1
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          1
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "ECONOMÍA",
+          58
+        ],
+        [
+          "ARQUITECTURA",
+          50
+        ],
+        [
+          "INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          50
+        ],
+        [
+          "TRABAJO SOCIAL",
+          47
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          45
+        ],
+        [
+          "ENFERMERÍA",
+          41
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          40
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          38
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          37
+        ],
+        [
+          "INGENIERÍA QUÍMICA AMBIENTAL",
+          35
+        ],
+        [
+          "INGENIERÍA QUÍMICA",
+          34
+        ],
+        [
+          "INGENIERÍA QUÍMICA INDUSTRIAL",
+          31
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          523
+        ],
+        [
+          "FEMENINO",
+          457
+        ]
+      ],
+      "EDAD": [
+        [
+          "19",
+          401
+        ],
+        [
+          "20",
+          272
+        ],
+        [
+          "21",
+          130
+        ],
+        [
+          "22",
+          68
+        ],
+        [
+          "23",
+          34
+        ],
+        [
+          "18",
+          16
+        ],
+        [
+          "24",
+          13
+        ],
+        [
+          "25",
+          11
+        ],
+        [
+          "26",
+          8
+        ],
+        [
+          "29",
+          7
+        ],
+        [
+          "28",
+          6
+        ],
+        [
+          "27",
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/12-listado-de-estudiantes-que-egresaron-en-el-periodo-2025-ii-universidad-nacional-del-centro/01-descargar.csv",
+    "dataset_dir": "data/datasets/12-listado-de-estudiantes-que-egresaron-en-el-periodo-2025-ii-universidad-nacional-del-centro",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 902,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "PERIODO_SALIENTE",
+      "PERIODO_INGRESANTE",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "ESCUELA",
+      "SEXO",
+      "EDAD",
+      "FECHA_NACIMIENTO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 902,
+      "PERIODO_SALIENTE": 1,
+      "PERIODO_INGRESANTE": 19,
+      "DEPARTAMENTO": 7,
+      "PROVINCIA": 19,
+      "DISTRITO": 103,
+      "TIPO_ADMISION": 12,
+      "ESCUELA": 36,
+      "SEXO": 2,
+      "EDAD": 24,
+      "FECHA_NACIMIENTO": 707
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          902
+        ]
+      ],
+      "PERIODO_SALIENTE": [
+        [
+          "2025-2",
+          902
+        ]
+      ],
+      "PERIODO_INGRESANTE": [
+        [
+          "2021-1",
+          467
+        ],
+        [
+          "2020-1",
+          282
+        ],
+        [
+          "2019-2",
+          43
+        ],
+        [
+          "2018-1",
+          34
+        ],
+        [
+          "2019-1",
+          25
+        ],
+        [
+          "2016-1",
+          8
+        ],
+        [
+          "2014-1",
+          8
+        ],
+        [
+          "2015-1",
+          6
+        ],
+        [
+          "2011-1",
+          5
+        ],
+        [
+          "2017-2",
+          4
+        ],
+        [
+          "2017-1",
+          4
+        ],
+        [
+          "2016-2",
+          4
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          870
+        ],
+        [
+          "HUANCAVELICA",
+          21
+        ],
+        [
+          "LIMA",
+          5
+        ],
+        [
+          "PASCO",
+          3
+        ],
+        [
+          "CALLAO",
+          1
+        ],
+        [
+          "AREQUIPA",
+          1
+        ],
+        [
+          "AMAZONAS",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          643
+        ],
+        [
+          "JAUJA",
+          56
+        ],
+        [
+          "CHUPACA",
+          47
+        ],
+        [
+          "CONCEPCION",
+          36
+        ],
+        [
+          "SATIPO",
+          33
+        ],
+        [
+          "TARMA",
+          32
+        ],
+        [
+          "JUNIN",
+          11
+        ],
+        [
+          "HUANCAVELICA",
+          10
+        ],
+        [
+          "CHANCHAMAYO",
+          9
+        ],
+        [
+          "TAYACAJA",
+          6
+        ],
+        [
+          "LIMA",
+          5
+        ],
+        [
+          "ACOBAMBA",
+          4
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "Examen de Admision",
+          574
+        ],
+        [
+          "Examen Admision Primera Seleccion",
+          130
+        ],
+        [
+          "Cepre intensivo",
+          80
+        ],
+        [
+          "Cepre primera seleccion",
+          42
+        ],
+        [
+          "Centro Pre Universitario",
+          32
+        ],
+        [
+          "Primeros Puestos Secundaria",
+          21
+        ],
+        [
+          "Hijo de Comunero",
+          10
+        ],
+        [
+          "Ley 27277",
+          7
+        ],
+        [
+          "Traslado Interno",
+          2
+        ],
+        [
+          "Deportistas Calificados",
+          2
+        ],
+        [
+          "Persona con Discapacidad",
+          1
+        ],
+        [
+          "Ciclo Cero",
+          1
+        ]
+      ],
+      "ESCUELA": [
+        [
+          "TRABAJO SOCIAL",
+          48
+        ],
+        [
+          "EDUCACIÓN SECUNDARIA: CIENCIAS MATEMÁTICAS E INFORMÁTICA",
+          48
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          47
+        ],
+        [
+          "EDUCACIÓN FISICA Y PSICOMOTRICIDAD",
+          42
+        ],
+        [
+          "EDUCACIÓN PRIMARIA",
+          41
+        ],
+        [
+          "CONTABILIDAD",
+          41
+        ],
+        [
+          "SOCIOLOGÍA",
+          40
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          39
+        ],
+        [
+          "ECONOMÍA",
+          39
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          38
+        ],
+        [
+          "INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          38
+        ],
+        [
+          "EDUCACIÓN INICIAL",
+          35
+        ]
+      ],
+      "SEXO": [
+        [
+          "FEMENINO",
+          486
+        ],
+        [
+          "MASCULINO",
+          416
+        ]
+      ],
+      "EDAD": [
+        [
+          "22",
+          207
+        ],
+        [
+          "23",
+          198
+        ],
+        [
+          "24",
+          143
+        ],
+        [
+          "25",
+          97
+        ],
+        [
+          "26",
+          59
+        ],
+        [
+          "66",
+          58
+        ],
+        [
+          "21",
+          37
+        ],
+        [
+          "27",
+          27
+        ],
+        [
+          "29",
+          22
+        ],
+        [
+          "30",
+          13
+        ],
+        [
+          "28",
+          11
+        ],
+        [
+          "31",
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/13-listado-de-estudiantes-que-egresaron-en-el-periodo-2024-ii-universidad-nacional-del-centro/01-descargar.csv",
+    "dataset_dir": "data/datasets/13-listado-de-estudiantes-que-egresaron-en-el-periodo-2024-ii-universidad-nacional-del-centro",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 197,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "PERIODO_SALIENTE",
+      "PERIODO_INGRESANTE",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "ESCUELA",
+      "SEXO",
+      "EDAD",
+      "FECHA_NACIMIENTO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 197,
+      "PERIODO_SALIENTE": 1,
+      "PERIODO_INGRESANTE": 16,
+      "DEPARTAMENTO": 4,
+      "PROVINCIA": 13,
+      "DISTRITO": 46,
+      "TIPO_ADMISION": 10,
+      "ESCUELA": 36,
+      "SEXO": 2,
+      "EDAD": 19,
+      "FECHA_NACIMIENTO": 178
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          197
+        ]
+      ],
+      "PERIODO_SALIENTE": [
+        [
+          "2024-2",
+          197
+        ]
+      ],
+      "PERIODO_INGRESANTE": [
+        [
+          "2020-1",
+          67
+        ],
+        [
+          "2019-2",
+          57
+        ],
+        [
+          "2018-1",
+          23
+        ],
+        [
+          "2019-1",
+          16
+        ],
+        [
+          "2017-2",
+          11
+        ],
+        [
+          "2015-1",
+          6
+        ],
+        [
+          "2016-2",
+          5
+        ],
+        [
+          "2016-1",
+          4
+        ],
+        [
+          "2017-1",
+          1
+        ],
+        [
+          "2014-1",
+          1
+        ],
+        [
+          "2013-1",
+          1
+        ],
+        [
+          "2012-2",
+          1
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          188
+        ],
+        [
+          "HUANCAVELICA",
+          7
+        ],
+        [
+          "LIMA",
+          1
+        ],
+        [
+          "PASCO",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          137
+        ],
+        [
+          "JAUJA",
+          12
+        ],
+        [
+          "CONCEPCION",
+          9
+        ],
+        [
+          "TARMA",
+          8
+        ],
+        [
+          "SATIPO",
+          7
+        ],
+        [
+          "CHUPACA",
+          6
+        ],
+        [
+          "CHANCHAMAYO",
+          5
+        ],
+        [
+          "JUNIN",
+          4
+        ],
+        [
+          "CHURCAMPA",
+          3
+        ],
+        [
+          "TAYACAJA",
+          2
+        ],
+        [
+          "ACOBAMBA",
+          2
+        ],
+        [
+          "LIMA",
+          1
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "Examen de Admision",
+          89
+        ],
+        [
+          "Centro Pre Universitario",
+          41
+        ],
+        [
+          "Examen Admision Primera Seleccion",
+          22
+        ],
+        [
+          "Cepre primera seleccion",
+          15
+        ],
+        [
+          "Cepre intensivo",
+          15
+        ],
+        [
+          "Primeros Puestos Secundaria",
+          9
+        ],
+        [
+          "Ley 27277",
+          2
+        ],
+        [
+          "Hijo de Comunero",
+          2
+        ],
+        [
+          "Traslado Externo",
+          1
+        ],
+        [
+          "Ciclo Cero",
+          1
+        ]
+      ],
+      "SEXO": [
+        [
+          "FEMENINO",
+          104
+        ],
+        [
+          "MASCULINO",
+          93
+        ]
+      ],
+      "EDAD": [
+        [
+          "23",
+          41
+        ],
+        [
+          "26",
+          33
+        ],
+        [
+          "24",
+          31
+        ],
+        [
+          "25",
+          25
+        ],
+        [
+          "22",
+          13
+        ],
+        [
+          "27",
+          12
+        ],
+        [
+          "28",
+          11
+        ],
+        [
+          "29",
+          7
+        ],
+        [
+          "30",
+          4
+        ],
+        [
+          "66",
+          4
+        ],
+        [
+          "31",
+          3
+        ],
+        [
+          "32",
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/14-listado-de-estudiantes-que-egresaron-en-el-periodo-2025-i-universidad-nacional-del-centro/01-descargar.csv",
+    "dataset_dir": "data/datasets/14-listado-de-estudiantes-que-egresaron-en-el-periodo-2025-i-universidad-nacional-del-centro",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 129,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "PERIODO_SALIENTE",
+      "PERIODO_INGRESANTE",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "TIPO_ADMISION",
+      "ESCUELA",
+      "SEXO",
+      "EDAD",
+      "FECHA_NACIMIENTO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 129,
+      "PERIODO_SALIENTE": 1,
+      "PERIODO_INGRESANTE": 13,
+      "DEPARTAMENTO": 3,
+      "PROVINCIA": 11,
+      "DISTRITO": 37,
+      "TIPO_ADMISION": 11,
+      "ESCUELA": 23,
+      "SEXO": 2,
+      "EDAD": 15,
+      "FECHA_NACIMIENTO": 117
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20260527",
+          129
+        ]
+      ],
+      "PERIODO_SALIENTE": [
+        [
+          "2025-1",
+          129
+        ]
+      ],
+      "PERIODO_INGRESANTE": [
+        [
+          "2020-1",
+          36
+        ],
+        [
+          "2019-2",
+          28
+        ],
+        [
+          "2018-1",
+          19
+        ],
+        [
+          "2019-1",
+          18
+        ],
+        [
+          "2017-2",
+          8
+        ],
+        [
+          "2016-2",
+          5
+        ],
+        [
+          "2016-1",
+          5
+        ],
+        [
+          "2014-1",
+          4
+        ],
+        [
+          "2015-1",
+          2
+        ],
+        [
+          "2013-1",
+          1
+        ],
+        [
+          "2009-1",
+          1
+        ],
+        [
+          "2000-1",
+          1
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          124
+        ],
+        [
+          "HUANCAVELICA",
+          4
+        ],
+        [
+          "LIMA",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          95
+        ],
+        [
+          "JAUJA",
+          10
+        ],
+        [
+          "CHUPACA",
+          9
+        ],
+        [
+          "SATIPO",
+          5
+        ],
+        [
+          "JUNIN",
+          3
+        ],
+        [
+          "CONCEPCION",
+          2
+        ],
+        [
+          "ANGARAES",
+          1
+        ],
+        [
+          "TAYACAJA",
+          1
+        ],
+        [
+          "CHURCAMPA",
+          1
+        ],
+        [
+          "HUANCAVELICA",
+          1
+        ],
+        [
+          "LIMA",
+          1
+        ]
+      ],
+      "TIPO_ADMISION": [
+        [
+          "Examen de Admision",
+          64
+        ],
+        [
+          "Centro Pre Universitario",
+          25
+        ],
+        [
+          "Examen Admision Primera Seleccion",
+          14
+        ],
+        [
+          "Cepre intensivo",
+          9
+        ],
+        [
+          "Cepre primera seleccion",
+          6
+        ],
+        [
+          "Primeros Puestos Secundaria",
+          4
+        ],
+        [
+          "Hijo de Comunero",
+          3
+        ],
+        [
+          "Deportistas Calificados",
+          1
+        ],
+        [
+          "Ley 27277",
+          1
+        ],
+        [
+          "Traslado Interno",
+          1
+        ],
+        [
+          "Persona con Discapacidad",
+          1
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          81
+        ],
+        [
+          "FEMENINO",
+          48
+        ]
+      ],
+      "EDAD": [
+        [
+          "24",
+          24
+        ],
+        [
+          "25",
+          21
+        ],
+        [
+          "23",
+          20
+        ],
+        [
+          "26",
+          15
+        ],
+        [
+          "28",
+          12
+        ],
+        [
+          "66",
+          10
+        ],
+        [
+          "22",
+          7
+        ],
+        [
+          "27",
+          6
+        ],
+        [
+          "29",
+          4
+        ],
+        [
+          "31",
+          4
+        ],
+        [
+          "30",
+          2
+        ],
+        [
+          "62",
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/15-listado-de-alumnos-beneficiarios-del-comedor-universitario-de-la-universidad-nacional-del/01-descargar.csv",
+    "dataset_dir": "data/datasets/15-listado-de-alumnos-beneficiarios-del-comedor-universitario-de-la-universidad-nacional-del",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 1498,
+    "columns": [
+      "FECHA_CORTE",
+      "CODIGO_MATRICULA",
+      "UUID",
+      "SERVICIO",
+      "FACULTAD",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "UBIGEO",
+      "SEMESTRE",
+      "SEXO",
+      "EDAD",
+      "PERIODO_ACADEMICO"
+    ],
+    "blank_counts": {
+      "EDAD": 2
+    },
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "CODIGO_MATRICULA": 1497,
+      "UUID": 1495,
+      "SERVICIO": 4,
+      "FACULTAD": 30,
+      "DEPARTAMENTO": 1,
+      "PROVINCIA": 2,
+      "DISTRITO": 2,
+      "UBIGEO": 2,
+      "SEMESTRE": 11,
+      "SEXO": 2,
+      "EDAD": 27,
+      "PERIODO_ACADEMICO": 1
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20240529",
+          1498
+        ]
+      ],
+      "SERVICIO": [
+        [
+          "SOLO ALMUERZO",
+          772
+        ],
+        [
+          "DESAYUNO Y ALMUERZO",
+          563
+        ],
+        [
+          "ALMUERZO",
+          162
+        ],
+        [
+          "SOLO ALMUEERZO",
+          1
+        ]
+      ],
+      "FACULTAD": [
+        [
+          "AGRONOMIA",
+          94
+        ],
+        [
+          "TRABAJO SOCIAL",
+          84
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          80
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          80
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA Y ELECTRÓNICA",
+          68
+        ],
+        [
+          "CIENCIAS DE LA ADMINISTRACION",
+          64
+        ],
+        [
+          "ARQUITECTURA",
+          60
+        ],
+        [
+          "ECONOMÍA",
+          60
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          59
+        ],
+        [
+          "INGENIERIA METALURGICA Y DE MATERIALES",
+          58
+        ],
+        [
+          "CIENCIAS FORESTALES Y DEL AMBIENTE",
+          57
+        ],
+        [
+          "ENFERMERÍA",
+          57
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          1498
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          1404
+        ],
+        [
+          "JAUJA",
+          94
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          1404
+        ],
+        [
+          "MANTARO",
+          94
+        ]
+      ],
+      "UBIGEO": [
+        [
+          "120114",
+          1404
+        ],
+        [
+          "120407",
+          94
+        ]
+      ],
+      "SEMESTRE": [
+        [
+          "5",
+          282
+        ],
+        [
+          "7",
+          262
+        ],
+        [
+          "3",
+          209
+        ],
+        [
+          "4",
+          205
+        ],
+        [
+          "2",
+          184
+        ],
+        [
+          "6",
+          169
+        ],
+        [
+          "9",
+          91
+        ],
+        [
+          "10",
+          53
+        ],
+        [
+          "8",
+          29
+        ],
+        [
+          "NO ESTA MATRICULADO",
+          10
+        ],
+        [
+          "11",
+          4
+        ]
+      ],
+      "SEXO": [
+        [
+          "FEMENINO",
+          773
+        ],
+        [
+          "MASCULINO",
+          725
+        ]
+      ],
+      "EDAD": [
+        [
+          "19",
+          277
+        ],
+        [
+          "20",
+          251
+        ],
+        [
+          "21",
+          223
+        ],
+        [
+          "22",
+          172
+        ],
+        [
+          "18",
+          145
+        ],
+        [
+          "23",
+          105
+        ],
+        [
+          "64",
+          83
+        ],
+        [
+          "24",
+          79
+        ],
+        [
+          "25",
+          46
+        ],
+        [
+          "26",
+          35
+        ],
+        [
+          "27",
+          16
+        ],
+        [
+          "28",
+          15
+        ]
+      ],
+      "PERIODO_ACADEMICO": [
+        [
+          "2024-I",
+          1498
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/16-listado-de-inscritos-en-cepre-de-la-universidad-nacional-del-centro-del-peru-uncp/01-descargar.csv",
+    "dataset_dir": "data/datasets/16-listado-de-inscritos-en-cepre-de-la-universidad-nacional-del-centro-del-peru-uncp",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 2601,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "FECHA_NACIMIENTO",
+      "AÑO_EGRESO",
+      "CODIGO_ESTUDIANTE",
+      "DEPARTAMENTO_SEDE_ESTUDIO",
+      "PROVINCIA_SEDE_ESTUDIO",
+      "DISTRITO_SEDE_ESTUDIO",
+      "NOMBRE_SEDE",
+      "SALON_SEDE",
+      "CARRERA_PROFESIONAL",
+      "CODIGO_CARRERA",
+      "AREA",
+      "FECHA_MATRICULA",
+      "HORA_MATRICULA",
+      ""
+    ],
+    "blank_counts": {
+      "": 2601,
+      "AÑO_EGRESO": 44
+    },
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 2001,
+      "FECHA_NACIMIENTO": 1223,
+      "AÑO_EGRESO": 18,
+      "CODIGO_ESTUDIANTE": 2001,
+      "DEPARTAMENTO_SEDE_ESTUDIO": 1,
+      "PROVINCIA_SEDE_ESTUDIO": 5,
+      "DISTRITO_SEDE_ESTUDIO": 8,
+      "NOMBRE_SEDE": 11,
+      "SALON_SEDE": 70,
+      "CARRERA_PROFESIONAL": 37,
+      "CODIGO_CARRERA": 37,
+      "AREA": 5,
+      "FECHA_MATRICULA": 48,
+      "HORA_MATRICULA": 2001,
+      "": 1
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20240529",
+          2601
+        ]
+      ],
+      "AÑO_EGRESO": [
+        [
+          "2023",
+          1193
+        ],
+        [
+          "2022",
+          638
+        ],
+        [
+          "2021",
+          317
+        ],
+        [
+          "2020",
+          147
+        ],
+        [
+          "2019",
+          87
+        ],
+        [
+          "2024",
+          70
+        ],
+        [
+          "2018",
+          37
+        ],
+        [
+          "2017",
+          21
+        ],
+        [
+          "2016",
+          10
+        ],
+        [
+          "2025",
+          10
+        ],
+        [
+          "2015",
+          10
+        ],
+        [
+          "2012",
+          5
+        ]
+      ],
+      "DEPARTAMENTO_SEDE_ESTUDIO": [
+        [
+          "JUNIN",
+          2601
+        ]
+      ],
+      "PROVINCIA_SEDE_ESTUDIO": [
+        [
+          "HUANCAYO",
+          2255
+        ],
+        [
+          "JAUJA",
+          137
+        ],
+        [
+          "CHUPACA",
+          114
+        ],
+        [
+          "SATIPO",
+          48
+        ],
+        [
+          "TARMA",
+          47
+        ]
+      ],
+      "DISTRITO_SEDE_ESTUDIO": [
+        [
+          "HUANCAYO",
+          1691
+        ],
+        [
+          "CHILCA",
+          534
+        ],
+        [
+          "JAUJA",
+          137
+        ],
+        [
+          "CHUPACA",
+          114
+        ],
+        [
+          "SATIPO",
+          47
+        ],
+        [
+          "TARMA",
+          47
+        ],
+        [
+          "HUAYUCACHI",
+          30
+        ],
+        [
+          "PANGOA",
+          1
+        ]
+      ],
+      "NOMBRE_SEDE": [
+        [
+          "SAN CARLOS",
+          670
+        ],
+        [
+          "TARAPACA",
+          663
+        ],
+        [
+          "CHILCA",
+          534
+        ],
+        [
+          "POSGRADO",
+          357
+        ],
+        [
+          "JAUJA",
+          137
+        ],
+        [
+          "COLEGIO EXCELENTI",
+          114
+        ],
+        [
+          "SATIPO",
+          47
+        ],
+        [
+          "TARMA",
+          47
+        ],
+        [
+          "HUAYUCACHI",
+          30
+        ],
+        [
+          "PANGOA",
+          1
+        ],
+        [
+          "I.E.MARIATEGUI",
+          1
+        ]
+      ],
+      "SALON_SEDE": [
+        [
+          "402",
+          81
+        ],
+        [
+          "422",
+          71
+        ],
+        [
+          "143",
+          58
+        ],
+        [
+          "102",
+          58
+        ],
+        [
+          "442",
+          58
+        ],
+        [
+          "271_II",
+          57
+        ],
+        [
+          "225",
+          57
+        ],
+        [
+          "101",
+          57
+        ],
+        [
+          "122",
+          57
+        ],
+        [
+          "321",
+          56
+        ],
+        [
+          "121",
+          56
+        ],
+        [
+          "441",
+          56
+        ]
+      ],
+      "CARRERA_PROFESIONAL": [
+        [
+          "MEDICINA HUMANA",
+          459
+        ],
+        [
+          "DERECHO",
+          253
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          188
+        ],
+        [
+          "ENFERMERÍA",
+          179
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          159
+        ],
+        [
+          "ARQUITECTURA",
+          136
+        ],
+        [
+          "INGENIERÍA DE SISTEMAS",
+          135
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA Y ELECTRÓNICA",
+          113
+        ],
+        [
+          "TRABAJO SOCIAL",
+          109
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          98
+        ],
+        [
+          "ECONOMÍA",
+          98
+        ],
+        [
+          "CONTABILIDAD",
+          93
+        ]
+      ],
+      "CODIGO_CARRERA": [
+        [
+          "2",
+          459
+        ],
+        [
+          "38",
+          253
+        ],
+        [
+          "4",
+          188
+        ],
+        [
+          "1",
+          179
+        ],
+        [
+          "5",
+          159
+        ],
+        [
+          "3",
+          136
+        ],
+        [
+          "6",
+          135
+        ],
+        [
+          "7",
+          113
+        ],
+        [
+          "28",
+          109
+        ],
+        [
+          "8",
+          98
+        ],
+        [
+          "15",
+          98
+        ],
+        [
+          "14",
+          93
+        ]
+      ],
+      "AREA": [
+        [
+          "2",
+          1017
+        ],
+        [
+          "1",
+          637
+        ],
+        [
+          "4",
+          584
+        ],
+        [
+          "3",
+          284
+        ],
+        [
+          "5",
+          79
+        ]
+      ],
+      "FECHA_MATRICULA": [
+        [
+          "20240401",
+          222
+        ],
+        [
+          "20240327",
+          196
+        ],
+        [
+          "20240402",
+          186
+        ],
+        [
+          "20240412",
+          183
+        ],
+        [
+          "20240326",
+          153
+        ],
+        [
+          "20240411",
+          143
+        ],
+        [
+          "20240410",
+          130
+        ],
+        [
+          "20240403",
+          128
+        ],
+        [
+          "20240415",
+          122
+        ],
+        [
+          "20240409",
+          119
+        ],
+        [
+          "20240413",
+          113
+        ],
+        [
+          "20240330",
+          111
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/17-listado-de-postulantes-al-proceso-del-examen-de-admisi-c3-b3n-2024-1-de-la-universidad-nac/01-descargar.csv",
+    "dataset_dir": "data/datasets/17-listado-de-postulantes-al-proceso-del-examen-de-admisi-c3-b3n-2024-1-de-la-universidad-nac",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 7425,
+    "columns": [
+      "FECHA_CORTE",
+      "TIPO_DOCUMENTO",
+      "UUID",
+      "SEXO",
+      "FECHA_NACIMIENTO",
+      "ESTADO_CIVIL",
+      "SEDE_EXAMEN",
+      "MEDIO_DIFUSION",
+      "ESCUELA_PROFESIONAL",
+      "CODIGO_ESCUELA",
+      "MODALIDAD",
+      "PAIS",
+      "DEPARTAMENTO_NACIMIENTO",
+      "PROVINCIA_NACIMIENTO",
+      "DISTRITO_NACIMIENTO",
+      "DEPARTAMENTO_RESIDENCIA",
+      "PROVINCIA_RESIDENCIA",
+      "DISTRITO_RESIDENCIA",
+      "TIPO_EDUCACION_SECUNDARIA",
+      "CONCLUSION_ESTUDIOS_SECUNDARIA",
+      "NOMBRE_INSTITUCION"
+    ],
+    "blank_counts": {
+      "NOMBRE_INSTITUCION": 28,
+      "DEPARTAMENTO_NACIMIENTO": 5,
+      "PROVINCIA_NACIMIENTO": 5,
+      "DISTRITO_NACIMIENTO": 5
+    },
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "TIPO_DOCUMENTO": 4,
+      "UUID": 2001,
+      "SEXO": 2,
+      "FECHA_NACIMIENTO": 855,
+      "ESTADO_CIVIL": 3,
+      "SEDE_EXAMEN": 1,
+      "MEDIO_DIFUSION": 4,
+      "ESCUELA_PROFESIONAL": 38,
+      "CODIGO_ESCUELA": 38,
+      "MODALIDAD": 11,
+      "PAIS": 5,
+      "DEPARTAMENTO_NACIMIENTO": 24,
+      "PROVINCIA_NACIMIENTO": 96,
+      "DISTRITO_NACIMIENTO": 96,
+      "DEPARTAMENTO_RESIDENCIA": 21,
+      "PROVINCIA_RESIDENCIA": 59,
+      "DISTRITO_RESIDENCIA": 283,
+      "TIPO_EDUCACION_SECUNDARIA": 2,
+      "CONCLUSION_ESTUDIOS_SECUNDARIA": 3,
+      "NOMBRE_INSTITUCION": 833
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20240524",
+          7425
+        ]
+      ],
+      "TIPO_DOCUMENTO": [
+        [
+          "DNI",
+          7422
+        ],
+        [
+          "CE-Carné de Extranjería",
+          1
+        ],
+        [
+          "Libreta Militar",
+          1
+        ],
+        [
+          "Carné de Identidad",
+          1
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          3964
+        ],
+        [
+          "FEMENINO",
+          3461
+        ]
+      ],
+      "ESTADO_CIVIL": [
+        [
+          "SOLTERO",
+          7416
+        ],
+        [
+          "CASADO",
+          8
+        ],
+        [
+          "VIUDO",
+          1
+        ]
+      ],
+      "SEDE_EXAMEN": [
+        [
+          "HUANCAYO",
+          7425
+        ]
+      ],
+      "MEDIO_DIFUSION": [
+        [
+          "REDES SOCIALES",
+          2807
+        ],
+        [
+          "FAMILIA Y/O AMIGOS",
+          2467
+        ],
+        [
+          "INTERNET",
+          1636
+        ],
+        [
+          "OTRO",
+          515
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "MEDICINA HUMANA",
+          971
+        ],
+        [
+          "DERECHO Y CIENCIAS POLÍTICAS",
+          967
+        ],
+        [
+          "ENFERMERIA",
+          566
+        ],
+        [
+          "INGENIERIA CIVIL",
+          438
+        ],
+        [
+          "INGENIERIA DE SISTEMAS",
+          390
+        ],
+        [
+          "INGENIERIA DE MINAS",
+          385
+        ],
+        [
+          "ARQUITECTURA",
+          333
+        ],
+        [
+          "EDUCACION INICIAL",
+          292
+        ],
+        [
+          "TRABAJO SOCIAL",
+          275
+        ],
+        [
+          "ADMINISTRACION DE EMPRESAS",
+          269
+        ],
+        [
+          "INGENIERIA ELECTRICA",
+          267
+        ],
+        [
+          "INGENIERIA MECANICA",
+          242
+        ]
+      ],
+      "CODIGO_ESCUELA": [
+        [
+          "2201",
+          971
+        ],
+        [
+          "2708",
+          967
+        ],
+        [
+          "1101",
+          566
+        ],
+        [
+          "1201",
+          438
+        ],
+        [
+          "1401",
+          390
+        ],
+        [
+          "1301",
+          385
+        ],
+        [
+          "0401",
+          333
+        ],
+        [
+          "2707",
+          292
+        ],
+        [
+          "2501",
+          275
+        ],
+        [
+          "0101",
+          269
+        ],
+        [
+          "1501",
+          267
+        ],
+        [
+          "1801",
+          242
+        ]
+      ],
+      "MODALIDAD": [
+        [
+          "NORMAL ORDINARIO",
+          6439
+        ],
+        [
+          "PARTICIPANTE LIBRE ORDINARIO",
+          333
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          239
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          234
+        ],
+        [
+          "AFECTADOS POR LA VIOLENCIA SOCIAL",
+          96
+        ],
+        [
+          "DISCAPACIDAD",
+          32
+        ],
+        [
+          "SEGUNDA CARRERA",
+          18
+        ],
+        [
+          "TRASLADO EXTERNO",
+          12
+        ],
+        [
+          "TRASLADO INTERNO",
+          11
+        ],
+        [
+          "COMUNIDADES INDIGENAS",
+          8
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          3
+        ]
+      ],
+      "PAIS": [
+        [
+          "PERÚ",
+          7420
+        ],
+        [
+          "ARGENTINA",
+          2
+        ],
+        [
+          "ITALIA",
+          1
+        ],
+        [
+          "VENEZUELA",
+          1
+        ],
+        [
+          "CHILE",
+          1
+        ]
+      ],
+      "DEPARTAMENTO_NACIMIENTO": [
+        [
+          "JUNIN",
+          5322
+        ],
+        [
+          "HUANCAVELICA",
+          1139
+        ],
+        [
+          "LIMA",
+          377
+        ],
+        [
+          "PASCO",
+          227
+        ],
+        [
+          "AYACUCHO",
+          150
+        ],
+        [
+          "HUANUCO",
+          56
+        ],
+        [
+          "AMAZONAS",
+          29
+        ],
+        [
+          "UCAYALI",
+          19
+        ],
+        [
+          "CALLAO",
+          19
+        ],
+        [
+          "APURIMAC",
+          13
+        ],
+        [
+          "CUSCO",
+          11
+        ],
+        [
+          "SAN MARTIN",
+          9
+        ]
+      ],
+      "PROVINCIA_NACIMIENTO": [
+        [
+          "HUANCAYO",
+          3468
+        ],
+        [
+          "HUANCAVELICA",
+          483
+        ],
+        [
+          "JAUJA",
+          423
+        ],
+        [
+          "TAYACAJA",
+          333
+        ],
+        [
+          "CHUPACA",
+          306
+        ],
+        [
+          "LIMA",
+          292
+        ],
+        [
+          "CONCEPCION",
+          257
+        ],
+        [
+          "SATIPO",
+          255
+        ],
+        [
+          "CHANCHAMAYO",
+          195
+        ],
+        [
+          "TARMA",
+          182
+        ],
+        [
+          "YAULI",
+          178
+        ],
+        [
+          "PASCO",
+          153
+        ]
+      ],
+      "DISTRITO_NACIMIENTO": [
+        [
+          "HUANCAYO",
+          3468
+        ],
+        [
+          "HUANCAVELICA",
+          483
+        ],
+        [
+          "JAUJA",
+          423
+        ],
+        [
+          "TAYACAJA",
+          333
+        ],
+        [
+          "CHUPACA",
+          306
+        ],
+        [
+          "LIMA",
+          292
+        ],
+        [
+          "CONCEPCION",
+          257
+        ],
+        [
+          "SATIPO",
+          255
+        ],
+        [
+          "CHANCHAMAYO",
+          195
+        ],
+        [
+          "TARMA",
+          182
+        ],
+        [
+          "YAULI",
+          178
+        ],
+        [
+          "PASCO",
+          153
+        ]
+      ],
+      "DEPARTAMENTO_RESIDENCIA": [
+        [
+          "JUNIN",
+          6619
+        ],
+        [
+          "HUANCAVELICA",
+          435
+        ],
+        [
+          "LIMA",
+          115
+        ],
+        [
+          "AYACUCHO",
+          100
+        ],
+        [
+          "PASCO",
+          85
+        ],
+        [
+          "HUANUCO",
+          21
+        ],
+        [
+          "AMAZONAS",
+          13
+        ],
+        [
+          "ICA",
+          6
+        ],
+        [
+          "CALLAO",
+          6
+        ],
+        [
+          "CUSCO",
+          6
+        ],
+        [
+          "UCAYALI",
+          4
+        ],
+        [
+          "SAN MARTIN",
+          3
+        ]
+      ],
+      "PROVINCIA_RESIDENCIA": [
+        [
+          "HUANCAYO",
+          4761
+        ],
+        [
+          "CHUPACA",
+          473
+        ],
+        [
+          "JAUJA",
+          392
+        ],
+        [
+          "CONCEPCION",
+          290
+        ],
+        [
+          "SATIPO",
+          225
+        ],
+        [
+          "HUANCAVELICA",
+          176
+        ],
+        [
+          "CHANCHAMAYO",
+          150
+        ],
+        [
+          "TAYACAJA",
+          149
+        ],
+        [
+          "TARMA",
+          138
+        ],
+        [
+          "LIMA",
+          97
+        ],
+        [
+          "YAULI",
+          96
+        ],
+        [
+          "JUNIN",
+          93
+        ]
+      ],
+      "DISTRITO_RESIDENCIA": [
+        [
+          "EL TAMBO",
+          1433
+        ],
+        [
+          "CHILCA",
+          1018
+        ],
+        [
+          "HUANCAYO",
+          941
+        ],
+        [
+          "HUANCAN",
+          246
+        ],
+        [
+          "CHUPACA",
+          245
+        ],
+        [
+          "PILCOMAYO",
+          223
+        ],
+        [
+          "SAN AGUSTIN",
+          190
+        ],
+        [
+          "SAPALLANGA",
+          175
+        ],
+        [
+          "CONCEPCION",
+          120
+        ],
+        [
+          "SAN JERONIMO DE TUNAN",
+          109
+        ],
+        [
+          "JAUJA",
+          109
+        ],
+        [
+          "TARMA",
+          90
+        ]
+      ],
+      "TIPO_EDUCACION_SECUNDARIA": [
+        [
+          "Público",
+          5451
+        ],
+        [
+          "Privado",
+          1974
+        ]
+      ],
+      "CONCLUSION_ESTUDIOS_SECUNDARIA": [
+        [
+          "SÍ",
+          7082
+        ],
+        [
+          "NO, CURSANDO 5º AÑO",
+          304
+        ],
+        [
+          "OTROS CASOS",
+          39
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/18-listado-de-estudiantes-egresados-en-el-periodo-academico-2024-i-universidad-nacional-del/01-descargar.csv",
+    "dataset_dir": "data/datasets/18-listado-de-estudiantes-egresados-en-el-periodo-academico-2024-i-universidad-nacional-del",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ",",
+    "rows": 376,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "ESCUELA_PROFESIONAL",
+      "PERIODO_ADMISION",
+      "PERIODO_EGRESO",
+      "NOTA_PROMEDIO",
+      "SEXO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 376,
+      "ESCUELA_PROFESIONAL": 23,
+      "PERIODO_ADMISION": 14,
+      "PERIODO_EGRESO": 1,
+      "NOTA_PROMEDIO": 257,
+      "SEXO": 2
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20250414",
+          376
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "INGENIERIA DE MINAS",
+          28
+        ],
+        [
+          "CONTABILIDAD",
+          26
+        ],
+        [
+          "INGENIERIA MECANICA",
+          26
+        ],
+        [
+          "CIENCIAS FORESTALES Y DEL AMBIENTE",
+          25
+        ],
+        [
+          "INGENIERIA QUIMICA",
+          23
+        ],
+        [
+          "SOCIOLOGIA",
+          22
+        ],
+        [
+          "ADMINISTRACION DE EMPRESAS",
+          21
+        ],
+        [
+          "CIENCIAS DE LA COMUNICACION",
+          21
+        ],
+        [
+          "INGENIERIA QUIMICA INDUSTRIAL",
+          19
+        ],
+        [
+          "INGENIERIA ELECTRICA",
+          18
+        ],
+        [
+          "ARQUITECTURA",
+          17
+        ],
+        [
+          "TRABAJO SOCIAL",
+          17
+        ]
+      ],
+      "PERIODO_ADMISION": [
+        [
+          "2019-2",
+          203
+        ],
+        [
+          "2019-1",
+          69
+        ],
+        [
+          "2018-1",
+          47
+        ],
+        [
+          "2017-2",
+          20
+        ],
+        [
+          "2015-1",
+          9
+        ],
+        [
+          "2016-1",
+          7
+        ],
+        [
+          "2016-2",
+          5
+        ],
+        [
+          "2014-1",
+          5
+        ],
+        [
+          "2017-1",
+          4
+        ],
+        [
+          "2006-1",
+          2
+        ],
+        [
+          "2011-1",
+          2
+        ],
+        [
+          "2012-2",
+          1
+        ]
+      ],
+      "PERIODO_EGRESO": [
+        [
+          "2024-1",
+          376
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          191
+        ],
+        [
+          "FEMENINO",
+          185
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/19-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2024-i-universid/01-descargar.csv",
+    "dataset_dir": "data/datasets/19-listado-de-estudiantes-que-obtuvieron-el-grado-de-bachiller-en-el-periodo-2024-i-universid",
+    "filename": "01-descargar.csv",
+    "encoding": "latin-1",
+    "delimiter": ",",
+    "rows": 2038,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "FACULTAD",
+      "SEXO",
+      "FECHA_MATRICULA",
+      "FECHA_EGRESO",
+      "DENOMINACION_GRADO",
+      "MODO_OBTENCIÓN",
+      "PROGRAMA_ESTUDIO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 2001,
+      "FACULTAD": 26,
+      "SEXO": 2,
+      "FECHA_MATRICULA": 33,
+      "FECHA_EGRESO": 26,
+      "DENOMINACION_GRADO": 61,
+      "MODO_OBTENCIÓN": 3,
+      "PROGRAMA_ESTUDIO": 1
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20250414",
+          2038
+        ]
+      ],
+      "FACULTAD": [
+        [
+          "FACULTAD DE EDUCACION",
+          297
+        ],
+        [
+          "FACULTAD DE INGENIERIA QUIMICA",
+          135
+        ],
+        [
+          "FACULTAD DE ARQUITECTURA",
+          124
+        ],
+        [
+          "FACULTAD DE CONTABILIDAD",
+          116
+        ],
+        [
+          "FACULTAD DE SOCIOLOGIA",
+          105
+        ],
+        [
+          "FACULTAD DE ECONOMIA",
+          98
+        ],
+        [
+          "FACULTAD DE MEDICINA HUMANA",
+          95
+        ],
+        [
+          "FACULTAD DE CIENCIAS DE LA ADMINISTRACION",
+          93
+        ],
+        [
+          "FACULTAD DE ENFERMERIA",
+          88
+        ],
+        [
+          "FACULTAD DE TRABAJO SOCIAL",
+          88
+        ],
+        [
+          "FACULTAD DE INGENIERIA CIVIL",
+          77
+        ],
+        [
+          "FACULTAD DE INGENIERIA ELECTRICA Y ELECTRONICA",
+          76
+        ]
+      ],
+      "SEXO": [
+        [
+          "FEMENINO",
+          1080
+        ],
+        [
+          "MASCULINO",
+          958
+        ]
+      ],
+      "FECHA_MATRICULA": [
+        [
+          "20180101",
+          630
+        ],
+        [
+          "20190101",
+          457
+        ],
+        [
+          "20170102",
+          159
+        ],
+        [
+          "20190102",
+          129
+        ],
+        [
+          "20170101",
+          115
+        ],
+        [
+          "20160101",
+          115
+        ],
+        [
+          "20150101",
+          107
+        ],
+        [
+          "20160102",
+          96
+        ],
+        [
+          "20140101",
+          82
+        ],
+        [
+          "20130101",
+          37
+        ],
+        [
+          "20120101",
+          19
+        ],
+        [
+          "20110101",
+          14
+        ]
+      ],
+      "FECHA_EGRESO": [
+        [
+          "20230808",
+          728
+        ],
+        [
+          "20230223",
+          343
+        ],
+        [
+          "20210102",
+          223
+        ],
+        [
+          "20240104",
+          199
+        ],
+        [
+          "20220102",
+          169
+        ],
+        [
+          "20220101",
+          105
+        ],
+        [
+          "20210101",
+          46
+        ],
+        [
+          "20241108",
+          43
+        ],
+        [
+          "20200102",
+          38
+        ],
+        [
+          "20190102",
+          33
+        ],
+        [
+          "20200101",
+          29
+        ],
+        [
+          "20190101",
+          20
+        ]
+      ],
+      "DENOMINACION_GRADO": [
+        [
+          "BACHILLER EN ARQUITECTURA",
+          124
+        ],
+        [
+          "BACHILLER EN CONTABILIDAD",
+          109
+        ],
+        [
+          "BACHILLER EN ECONOMÍA",
+          98
+        ],
+        [
+          "BACHILLER EN MEDICINA HUMANA",
+          95
+        ],
+        [
+          "BACHILLER EN ADMINISTRACIÓN",
+          93
+        ],
+        [
+          "BACHILLER EN TRABAJO SOCIAL",
+          88
+        ],
+        [
+          "BACHILLER EN INGENIERÍA ELÉCTRICA",
+          76
+        ],
+        [
+          "BACHILLER EN INGENIERÍA MECÁNICA",
+          74
+        ],
+        [
+          "BACHILLER EN EDUCACIÓN INICIAL",
+          71
+        ],
+        [
+          "BACHILLER EN INGENIERÍA DE SISTEMAS",
+          71
+        ],
+        [
+          "BACHILLER EN  SOCIOLOGÍA",
+          70
+        ],
+        [
+          "BACHILLER EN INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          68
+        ]
+      ],
+      "MODO_OBTENCIÓN": [
+        [
+          "Automático",
+          1130
+        ],
+        [
+          "Bachillerato Automático",
+          667
+        ],
+        [
+          "Curso Trabajo de Investigación",
+          241
+        ]
+      ],
+      "PROGRAMA_ESTUDIO": [
+        [
+          "CICLO REGULAR",
+          2038
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/20-listado-de-estudiantes-beneficiarios-del-comedor-universitario-2025-1-universidad-nacional/01-descargar.csv",
+    "dataset_dir": "data/datasets/20-listado-de-estudiantes-beneficiarios-del-comedor-universitario-2025-1-universidad-nacional",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 1594,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "SERVICIO",
+      "FACULTAD",
+      "ESCUELA_PROFESIONAL",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "UBIGEO",
+      "PERIODO_ACADEMICO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 1594,
+      "SERVICIO": 2,
+      "FACULTAD": 31,
+      "ESCUELA_PROFESIONAL": 31,
+      "DEPARTAMENTO": 1,
+      "PROVINCIA": 2,
+      "DISTRITO": 2,
+      "UBIGEO": 2,
+      "PERIODO_ACADEMICO": 1
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20250414",
+          1594
+        ]
+      ],
+      "SERVICIO": [
+        [
+          "SOLO ALMUERZO",
+          1008
+        ],
+        [
+          "DESAYUNO Y ALMUERZO",
+          586
+        ]
+      ],
+      "FACULTAD": [
+        [
+          "AGRONOMIA",
+          94
+        ],
+        [
+          "TRABAJO SOCIAL",
+          82
+        ],
+        [
+          "INGENIERIA DE MINAS",
+          80
+        ],
+        [
+          "ARQUITECTURA",
+          78
+        ],
+        [
+          "ENFERMERIA",
+          75
+        ],
+        [
+          "INGENIERIA ELECTRICA",
+          70
+        ],
+        [
+          "ECONOMIA",
+          66
+        ],
+        [
+          "CONTABILIDAD",
+          64
+        ],
+        [
+          "ADMINISTRACION DE EMPRESAS",
+          62
+        ],
+        [
+          "INGENIERIA CIVIL",
+          58
+        ],
+        [
+          "INGENIERIA MECANICA",
+          57
+        ],
+        [
+          "INGENIERIA DE SISTEMAS",
+          55
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "AGRONOMIA",
+          94
+        ],
+        [
+          "TRABAJO SOCIAL",
+          82
+        ],
+        [
+          "INGENIERIA DE MINAS",
+          80
+        ],
+        [
+          "ARQUITECTURA",
+          78
+        ],
+        [
+          "ENFERMERIA",
+          75
+        ],
+        [
+          "INGENIERIA ELECTRICA",
+          70
+        ],
+        [
+          "ECONOMIA",
+          66
+        ],
+        [
+          "CONTABILIDAD",
+          64
+        ],
+        [
+          "ADMINISTRACION DE EMPRESAS",
+          62
+        ],
+        [
+          "INGENIERIA CIVIL",
+          58
+        ],
+        [
+          "INGENIERIA MECANICA",
+          57
+        ],
+        [
+          "INGENIERIA DE SISTEMAS",
+          55
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          1594
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          1500
+        ],
+        [
+          "JAUJA",
+          94
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          1500
+        ],
+        [
+          "EL MANTARO",
+          94
+        ]
+      ],
+      "UBIGEO": [
+        [
+          "120114",
+          1500
+        ],
+        [
+          "120407",
+          94
+        ]
+      ],
+      "PERIODO_ACADEMICO": [
+        [
+          "2025-I",
+          1594
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/21-listado-de-ingresantes-al-periodo-academico-2024-i-universidad-nacional-del-centro-del-per/01-descargar.csv",
+    "dataset_dir": "data/datasets/21-listado-de-ingresantes-al-periodo-academico-2024-i-universidad-nacional-del-centro-del-per",
+    "filename": "01-descargar.csv",
+    "encoding": "latin-1",
+    "delimiter": ",",
+    "rows": 1478,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "MODO_INGRESO",
+      "MATRICULA_REALIZADA",
+      "ESCUELA_PROFESIONAL",
+      "UBIGEO_DOMICILIO"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 1478,
+      "MODO_INGRESO": 12,
+      "MATRICULA_REALIZADA": 2,
+      "ESCUELA_PROFESIONAL": 38,
+      "UBIGEO_DOMICILIO": 46
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20250414",
+          1478
+        ]
+      ],
+      "MODO_INGRESO": [
+        [
+          "NORMAL ORDINARIO",
+          1016
+        ],
+        [
+          "CEPRE ADMISION",
+          387
+        ],
+        [
+          "HIJO DE COMUNEROS",
+          26
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          15
+        ],
+        [
+          "VICTIMA DE TERRORISMO",
+          10
+        ],
+        [
+          "PUEBLOS INDÍGENAS Y ORIGINARIOS",
+          8
+        ],
+        [
+          "SEGUNDA CARRERA",
+          4
+        ],
+        [
+          "Cooperación Internacional e Intercambio Académico",
+          4
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD",
+          3
+        ],
+        [
+          "DEPORTISTA DESTACADO",
+          3
+        ],
+        [
+          "TRASLADO EXTERNO",
+          1
+        ],
+        [
+          "TRASLADO INTERNO",
+          1
+        ]
+      ],
+      "MATRICULA_REALIZADA": [
+        [
+          "Si",
+          1449
+        ],
+        [
+          "No",
+          29
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "AGRONOMIA",
+          69
+        ],
+        [
+          "INGENIERIA DE MINAS",
+          67
+        ],
+        [
+          "ZOOTECNIA",
+          64
+        ],
+        [
+          "CONTABILIDAD",
+          60
+        ],
+        [
+          "EDUCACION FISICA Y PSICOMOTRICIDAD",
+          60
+        ],
+        [
+          "TRABAJO SOCIAL",
+          58
+        ],
+        [
+          "CIENCIAS FORESTALES Y DEL AMBIENTE",
+          54
+        ],
+        [
+          "ADMINISTRACION DE EMPRESAS",
+          50
+        ],
+        [
+          "INGENIERIA ELECTRICA",
+          50
+        ],
+        [
+          "ANTROPOLOGIA",
+          49
+        ],
+        [
+          "ENFERMERIA",
+          48
+        ],
+        [
+          "INGENIERIA METALURGICA Y DE MATERIALES",
+          47
+        ]
+      ],
+      "UBIGEO_DOMICILIO": [
+        [
+          "JUNIN-JUNIN-JUNIN",
+          1253
+        ],
+        [
+          "JUNIN-HUANCAYO-EL TAMBO",
+          49
+        ],
+        [
+          "JUNIN-HUANCAYO-HUANCAYO",
+          33
+        ],
+        [
+          "JUNIN-HUANCAYO-CHILCA",
+          26
+        ],
+        [
+          "JUNIN-HUANCAYO-HUANCAN",
+          13
+        ],
+        [
+          "JUNIN-JUNIN-CARHUAMAYO",
+          9
+        ],
+        [
+          "JUNIN-CHUPACA-CHUPACA",
+          8
+        ],
+        [
+          "JUNIN-HUANCAYO-PILCOMAYO",
+          6
+        ],
+        [
+          "JUNIN-JAUJA-JAUJA",
+          5
+        ],
+        [
+          "JUNIN-HUANCAYO-SAPALLANGA",
+          5
+        ],
+        [
+          "JUNIN-HUANCAYO-SICAYA",
+          5
+        ],
+        [
+          "JUNIN-HUANCAYO-SAN JERONIMO DE TUNAN",
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/22-listado-de-estudiantes-egresados-de-la-universidad-nacional-del-centro-del-per-c3-ba-2022/01-descargar.csv",
+    "dataset_dir": "data/datasets/22-listado-de-estudiantes-egresados-de-la-universidad-nacional-del-centro-del-per-c3-ba-2022",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 818,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "UBIGEO",
+      "NIVEL_ACADEMICO",
+      "PERIODO_EGRESO",
+      "FECHA_EGRESO",
+      "ESCUELA_PROFESIONAL",
+      "SITUACION",
+      "MODALIDAD_ESTUDIO",
+      "SEDE"
+    ],
+    "blank_counts": {},
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 818,
+      "DEPARTAMENTO": 1,
+      "PROVINCIA": 5,
+      "DISTRITO": 5,
+      "UBIGEO": 5,
+      "NIVEL_ACADEMICO": 1,
+      "PERIODO_EGRESO": 1,
+      "FECHA_EGRESO": 11,
+      "ESCUELA_PROFESIONAL": 37,
+      "SITUACION": 1,
+      "MODALIDAD_ESTUDIO": 1,
+      "SEDE": 5
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20230802",
+          818
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          818
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          730
+        ],
+        [
+          "TARMA",
+          52
+        ],
+        [
+          "SATIPO",
+          24
+        ],
+        [
+          "JAUJA",
+          10
+        ],
+        [
+          "JUNIN",
+          2
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          730
+        ],
+        [
+          "TARMA",
+          52
+        ],
+        [
+          "RIO NEGRO",
+          24
+        ],
+        [
+          "EL MANTARO",
+          10
+        ],
+        [
+          "JUNIN",
+          2
+        ]
+      ],
+      "UBIGEO": [
+        [
+          "120114",
+          730
+        ],
+        [
+          "120701",
+          52
+        ],
+        [
+          "120607",
+          24
+        ],
+        [
+          "120407",
+          10
+        ],
+        [
+          "120501",
+          2
+        ]
+      ],
+      "NIVEL_ACADEMICO": [
+        [
+          "CARRERA PROFESIONAL",
+          818
+        ]
+      ],
+      "PERIODO_EGRESO": [
+        [
+          "2022-2",
+          818
+        ]
+      ],
+      "FECHA_EGRESO": [
+        [
+          "20230120",
+          700
+        ],
+        [
+          "20230331",
+          43
+        ],
+        [
+          "20230324",
+          39
+        ],
+        [
+          "20230130",
+          29
+        ],
+        [
+          "20230109",
+          1
+        ],
+        [
+          "20230206",
+          1
+        ],
+        [
+          "20230330",
+          1
+        ],
+        [
+          "20230421",
+          1
+        ],
+        [
+          "20230503",
+          1
+        ],
+        [
+          "20230522",
+          1
+        ],
+        [
+          "20230525",
+          1
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "INGENIERÍA MECÁNICA",
+          68
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          65
+        ],
+        [
+          "ADMINISTRACIÓN DE NEGOCIOS",
+          43
+        ],
+        [
+          "MEDICINA HUMANA",
+          43
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          40
+        ],
+        [
+          "TRABAJO SOCIAL",
+          37
+        ],
+        [
+          "EDUCACIÓN INICIAL",
+          34
+        ],
+        [
+          "EDUCACIÓN PRIMARIA",
+          33
+        ],
+        [
+          "CONTABILIDAD",
+          29
+        ],
+        [
+          "SOCIOLOGÍA",
+          29
+        ],
+        [
+          "EDUCACIÓN FÍSICA Y PSICOMOTRICIDAD",
+          28
+        ],
+        [
+          "INGENIERÍA METALÚRGICA Y DE MATERIALES",
+          28
+        ]
+      ],
+      "SITUACION": [
+        [
+          "EGRESADO",
+          818
+        ]
+      ],
+      "MODALIDAD_ESTUDIO": [
+        [
+          "SEMIPRESENCIAL",
+          818
+        ]
+      ],
+      "SEDE": [
+        [
+          "HUANCAYO",
+          730
+        ],
+        [
+          "TARMA",
+          52
+        ],
+        [
+          "SATIPO",
+          24
+        ],
+        [
+          "JAUJA",
+          10
+        ],
+        [
+          "JUNIN",
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/23-listado-de-estudiantes-beneficiarios-del-comedor-universitario-de-la-universidad-nacional/01-descargar.csv",
+    "dataset_dir": "data/datasets/23-listado-de-estudiantes-beneficiarios-del-comedor-universitario-de-la-universidad-nacional",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 1500,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "SERVICIO",
+      "FACULTAD",
+      "ESCUELA_PROFESIONAL",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "UBIGEO",
+      "SEMESTRE",
+      "SEXO",
+      "PERIODO_ACADEMICO"
+    ],
+    "blank_counts": {
+      "ESCUELA_PROFESIONAL": 1
+    },
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 1500,
+      "SERVICIO": 2,
+      "FACULTAD": 22,
+      "ESCUELA_PROFESIONAL": 32,
+      "DEPARTAMENTO": 1,
+      "PROVINCIA": 2,
+      "DISTRITO": 2,
+      "UBIGEO": 2,
+      "SEMESTRE": 11,
+      "SEXO": 2,
+      "PERIODO_ACADEMICO": 1
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20230802",
+          1500
+        ]
+      ],
+      "SERVICIO": [
+        [
+          "ALMUERZO",
+          900
+        ],
+        [
+          "DESAYUNO Y ALMUERZO",
+          600
+        ]
+      ],
+      "FACULTAD": [
+        [
+          "FACULTAD DE EDUCACION",
+          197
+        ],
+        [
+          "FACULTAD DE INGENIERIA QUIMICA",
+          117
+        ],
+        [
+          "FACULTAD DE AGRONOMIA",
+          94
+        ],
+        [
+          "FACULTAD DE TRABAJO SOCIAL",
+          94
+        ],
+        [
+          "FACULTAD DE INGENIERIA ELECTRICA Y ELECTRONICA",
+          82
+        ],
+        [
+          "FACULTAD DE ENFERMERIA",
+          76
+        ],
+        [
+          "FACULTAD DE INGENIERIA DE MINAS",
+          74
+        ],
+        [
+          "FACULTAD DE INGENIERiA MECANICA",
+          72
+        ],
+        [
+          "FACULTAD DE ARQUITECTURA",
+          70
+        ],
+        [
+          "FACULTAD DE INGENIERIA CIVIL",
+          70
+        ],
+        [
+          "FACULTAD DE CIENCIAS FORESTALES Y DEL AMBIENTE",
+          63
+        ],
+        [
+          "FACULTAD DE CIENCIAS DE LA ADMINISTRACION",
+          61
+        ]
+      ],
+      "ESCUELA_PROFESIONAL": [
+        [
+          "AGRONOMÍA",
+          94
+        ],
+        [
+          "TRABAJO SOCIAL",
+          93
+        ],
+        [
+          "INGENIERÍA ELÉCTRICA",
+          82
+        ],
+        [
+          "ENFERMERÍA",
+          76
+        ],
+        [
+          "INGENIERÍA DE MINAS",
+          74
+        ],
+        [
+          "INGENIERÍA MECÁNICA",
+          72
+        ],
+        [
+          "ARQUITECTURA",
+          70
+        ],
+        [
+          "INGENIERÍA CIVIL",
+          70
+        ],
+        [
+          "CIENCIAS FORESTALES Y DEL AMBIENTE",
+          63
+        ],
+        [
+          "ADMINISTRACIÓN DE EMPRESAS",
+          61
+        ],
+        [
+          "ECONOMÍA",
+          58
+        ],
+        [
+          "CONTABILIDAD",
+          54
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          1500
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          1406
+        ],
+        [
+          "JAUJA",
+          94
+        ]
+      ],
+      "DISTRITO": [
+        [
+          "EL TAMBO",
+          1406
+        ],
+        [
+          "EL MANTARO",
+          94
+        ]
+      ],
+      "UBIGEO": [
+        [
+          "120114",
+          1406
+        ],
+        [
+          "120407",
+          94
+        ]
+      ],
+      "SEMESTRE": [
+        [
+          "3",
+          321
+        ],
+        [
+          "5",
+          272
+        ],
+        [
+          "4",
+          204
+        ],
+        [
+          "2",
+          184
+        ],
+        [
+          "9",
+          182
+        ],
+        [
+          "7",
+          117
+        ],
+        [
+          "10",
+          114
+        ],
+        [
+          "8",
+          93
+        ],
+        [
+          "6",
+          8
+        ],
+        [
+          "11",
+          4
+        ],
+        [
+          "1",
+          1
+        ]
+      ],
+      "SEXO": [
+        [
+          "FEMENINO",
+          809
+        ],
+        [
+          "MASCULINO",
+          691
+        ]
+      ],
+      "PERIODO_ACADEMICO": [
+        [
+          "2023-I",
+          1500
+        ]
+      ]
+    }
+  },
+  {
+    "path": "data/datasets/24-lista-de-ingresantes-periodo-2023-1-uncp/01-descargar.csv",
+    "dataset_dir": "data/datasets/24-lista-de-ingresantes-periodo-2023-1-uncp",
+    "filename": "01-descargar.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";",
+    "rows": 1505,
+    "columns": [
+      "FECHA_CORTE",
+      "UUID",
+      "CODIGO_CARRERA",
+      "NOMBRE_CARRERA",
+      "CICLO",
+      "CAMPUS",
+      "DEPARTAMENTO",
+      "PROVINCIA",
+      "DISTRITO",
+      "UBIGEO",
+      "FECHA_NACIMIENTO",
+      "SEXO",
+      "PERIODO_INGRESO",
+      "TIPO_EXAMEN"
+    ],
+    "blank_counts": {
+      "CAMPUS": 23
+    },
+    "unique_counts": {
+      "FECHA_CORTE": 1,
+      "UUID": 1505,
+      "CODIGO_CARRERA": 37,
+      "NOMBRE_CARRERA": 37,
+      "CICLO": 1,
+      "CAMPUS": 5,
+      "DEPARTAMENTO": 8,
+      "PROVINCIA": 28,
+      "DISTRITO": 151,
+      "UBIGEO": 153,
+      "FECHA_NACIMIENTO": 902,
+      "SEXO": 2,
+      "PERIODO_INGRESO": 1,
+      "TIPO_EXAMEN": 16
+    },
+    "top_values": {
+      "FECHA_CORTE": [
+        [
+          "20230727",
+          1505
+        ]
+      ],
+      "CODIGO_CARRERA": [
+        [
+          "1901",
+          130
+        ],
+        [
+          "0201",
+          78
+        ],
+        [
+          "2601",
+          61
+        ],
+        [
+          "1801",
+          60
+        ],
+        [
+          "0301",
+          52
+        ],
+        [
+          "0503",
+          51
+        ],
+        [
+          "0501",
+          50
+        ],
+        [
+          "2501",
+          49
+        ],
+        [
+          "2401",
+          49
+        ],
+        [
+          "0101",
+          48
+        ],
+        [
+          "1501",
+          47
+        ],
+        [
+          "0801",
+          45
+        ]
+      ],
+      "NOMBRE_CARRERA": [
+        [
+          "INGENIERIA METALURGICA Y DE MATERIALES",
+          130
+        ],
+        [
+          "AGRONOMIA",
+          78
+        ],
+        [
+          "ZOOTECNIA",
+          61
+        ],
+        [
+          "INGENIERIA MECANICA",
+          60
+        ],
+        [
+          "ANTROPOLOGIA",
+          52
+        ],
+        [
+          "INGENIERIA FORESTAL TROPICAL",
+          51
+        ],
+        [
+          "AGRONOMIA TROPICAL",
+          50
+        ],
+        [
+          "TRABAJO SOCIAL",
+          49
+        ],
+        [
+          "SOCIOLOGIA",
+          49
+        ],
+        [
+          "ADMINISTRACION DE EMPRESAS",
+          48
+        ],
+        [
+          "INGENIERIA ELECTRICA",
+          47
+        ],
+        [
+          "CIENCIAS FORESTALES Y DEL AMBIENTE",
+          45
+        ]
+      ],
+      "CICLO": [
+        [
+          "PRIMERO",
+          1505
+        ]
+      ],
+      "CAMPUS": [
+        [
+          "HUANCAYO",
+          1197
+        ],
+        [
+          "SATIPO",
+          158
+        ],
+        [
+          "MANTARO",
+          72
+        ],
+        [
+          "TARMA",
+          55
+        ]
+      ],
+      "DEPARTAMENTO": [
+        [
+          "JUNIN",
+          1416
+        ],
+        [
+          "HUANCAVELICA",
+          51
+        ],
+        [
+          "LIMA",
+          18
+        ],
+        [
+          "PASCO",
+          9
+        ],
+        [
+          "AYACUCHO",
+          5
+        ],
+        [
+          "HUANUCO",
+          3
+        ],
+        [
+          "APURIMAC",
+          2
+        ],
+        [
+          "CAJAMARCA",
+          1
+        ]
+      ],
+      "PROVINCIA": [
+        [
+          "HUANCAYO",
+          901
+        ],
+        [
+          "SATIPO",
+          163
+        ],
+        [
+          "JAUJA",
+          104
+        ],
+        [
+          "CHUPACA",
+          81
+        ],
+        [
+          "TARMA",
+          55
+        ],
+        [
+          "CHANCHAMAYO",
+          46
+        ],
+        [
+          "CONCEPCION",
+          40
+        ],
+        [
+          "TAYACAJA",
+          21
+        ],
+        [
+          "YAULI",
+          20
+        ],
+        [
+          "LIMA",
+          13
+        ],
+        [
+          "HUANCAVELICA",
+          13
+        ],
+        [
+          "CHURCAMPA",
+          9
+        ]
+      ],
+      "SEXO": [
+        [
+          "MASCULINO",
+          796
+        ],
+        [
+          "FEMENINO",
+          709
+        ]
+      ],
+      "PERIODO_INGRESO": [
+        [
+          "2023-I",
+          1505
+        ]
+      ],
+      "TIPO_EXAMEN": [
+        [
+          "ORDINARIO 2023-I",
+          745
+        ],
+        [
+          "CEPRE",
+          282
+        ],
+        [
+          "ORDINARIO PRIMERA SELECCIÓN 2023",
+          276
+        ],
+        [
+          "CEPRE PRIMERA SELECCIÓN 2023",
+          82
+        ],
+        [
+          "PUEBLOS INDÍGENAS U ORIGINARIOS",
+          46
+        ],
+        [
+          "HIJOS DE COMUNERO",
+          16
+        ],
+        [
+          "COBERTURA PRIMERA SELECCIÓN 2023",
+          15
+        ],
+        [
+          "PRIMEROS PUESTOS",
+          14
+        ],
+        [
+          "LEY 27277 - 28592",
+          9
+        ],
+        [
+          "COBERTURA ORDINARIO 2023",
+          8
+        ],
+        [
+          "TRASLADO INTERNO",
+          4
+        ],
+        [
+          "PERSONA CON DISCAPACIDAD PRIMERA SELECCIÓN 2023",
+          3
+        ]
+      ]
+    }
+  }
+]

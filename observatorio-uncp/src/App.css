@@ -1,0 +1,1237 @@
+/* ========================================================
+   OBSERVATORIO INSTITUCIONAL UNCP - PANEL DE CONTROL
+   ======================================================== */
+
+.app-shell {
+  min-height: 100vh;
+  background: #f1f5f9;
+  color: #0f172a;
+  overflow-x: hidden;
+}
+
+/* ---------------- HEADER & BRANDING ---------------- */
+.app-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  padding: 16px max(24px, calc((100vw - 1480px) / 2)) 0;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.brand-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #042f2e;
+  color: #5eead4;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.db-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  color: #166534;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 6px;
+}
+
+.live-dot {
+  width: 7px;
+  height: 7px;
+  background: #16a34a;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.25);
+  animation: pulse-dot 2s infinite ease-in-out;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.25); }
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 6px 12px;
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.action-btn.secondary {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+}
+
+.action-btn.secondary:hover {
+  background: #f8fafc;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+
+.action-btn.primary {
+  background: #0f766e;
+  border: 1px solid #0f766e;
+  color: #ffffff;
+}
+
+.action-btn.primary:hover {
+  background: #115e59;
+  border-color: #115e59;
+}
+
+.header-headline h1 {
+  margin: 4px 0 6px;
+  font-size: clamp(20px, 2.4vw, 28px);
+  line-height: 1.15;
+  font-weight: 850;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.header-headline p {
+  margin: 0;
+  max-width: 960px;
+  color: #475569;
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+
+/* ---------------- BARRA DE FILTROS GLOBALES ---------------- */
+.global-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(180px, 1fr)) minmax(240px, 1.4fr) auto;
+  gap: 12px;
+  align-items: end;
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filter-item label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.filter-item select,
+.filter-item input {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #0f172a;
+  padding: 7px 10px;
+  font-size: 13px;
+  transition: border-color 0.15s ease;
+}
+
+.filter-item select:focus,
+.filter-item input:focus {
+  border-color: #0f766e;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.clear-search {
+  position: absolute;
+  right: 8px;
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.filter-reset-wrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.reset-filters-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 38px;
+  padding: 7px 12px;
+  background: #fee2e2;
+  border: 1px solid #fca5a5;
+  color: #991b1b;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reset-filters-btn:hover {
+  background: #fecaca;
+}
+
+/* ---------------- BARRA DE RUTAS / PESTAÑAS ---------------- */
+.tab-nav {
+  display: flex;
+  gap: 4px;
+  margin-top: 14px;
+  border-bottom: 2px solid transparent;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: #64748b;
+  font-size: 13.5px;
+  font-weight: 750;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+
+.tab-btn:hover {
+  color: #0f766e;
+  background: rgba(15, 118, 110, 0.04);
+}
+
+.tab-btn.active {
+  color: #0f766e;
+  border-bottom-color: #0f766e;
+  background: rgba(15, 118, 110, 0.05);
+}
+
+.tab-pill-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.tab-btn.active .tab-pill-badge {
+  background: #ccfbf1;
+  color: #0f766e;
+}
+
+/* ---------------- CONTENIDO PRINCIPAL ---------------- */
+.app-content {
+  width: min(1480px, calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 20px 0 40px;
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------------- KPI GRID ---------------- */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(130px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.kpi-card {
+  display: flex;
+  gap: 12px;
+  padding: 14px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  position: relative;
+  overflow: hidden;
+}
+
+.kpi-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+}
+
+.kpi-card.accent-emerald::before { background: #10b981; }
+.kpi-card.accent-blue::before { background: #3b82f6; }
+.kpi-card.accent-teal::before { background: #14b8a6; }
+.kpi-card.accent-green::before { background: #22c55e; }
+.kpi-card.accent-purple::before { background: #8b5cf6; }
+.kpi-card.accent-amber::before { background: #f59e0b; }
+
+.kpi-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background: #f1f5f9;
+  color: #0f766e;
+  flex-shrink: 0;
+}
+
+.kpi-card.accent-blue .kpi-icon { background: #eff6ff; color: #2563eb; }
+.kpi-card.accent-teal .kpi-icon { background: #f0fdfa; color: #0f766e; }
+.kpi-card.accent-green .kpi-icon { background: #f0fdf4; color: #16a34a; }
+.kpi-card.accent-purple .kpi-icon { background: #faf5ff; color: #7c3aed; }
+.kpi-card.accent-amber .kpi-icon { background: #fffbeb; color: #d97706; }
+
+.kpi-body {
+  min-width: 0;
+}
+
+.kpi-label {
+  color: #64748b;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.kpi-value {
+  margin-top: 3px;
+  color: #0f172a;
+  font-size: 22px;
+  font-weight: 850;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kpi-note {
+  margin-top: 5px;
+  color: #64748b;
+  font-size: 11.5px;
+}
+
+/* ---------------- LAYOUT GRIDS & PANELES ---------------- */
+.grid-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.panel h2 {
+  margin: 0 0 3px;
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.panel p {
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.link-action-btn {
+  background: transparent;
+  border: none;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.link-action-btn:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- HORIZONTAL BARS ---------------- */
+.bar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  max-height: 380px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.bar-line {
+  display: grid;
+  grid-template-columns: minmax(130px, 190px) minmax(80px, 1fr) 110px;
+  gap: 10px;
+  align-items: center;
+  min-height: 26px;
+}
+
+.bar-line.compact {
+  grid-template-columns: 90px minmax(80px, 1fr) 70px;
+}
+
+.bar-name {
+  color: #334155;
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bar-track {
+  height: 10px;
+  background: #f1f5f9;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.bar-number {
+  color: #475569;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* ---------------- EMBUDO ACADÉMICO ---------------- */
+.funnel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 440px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.funnel-period {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f8fafc;
+}
+
+.funnel-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.period-pill {
+  font-weight: 850;
+  font-size: 13.5px;
+  color: #0f172a;
+}
+
+.conversion-pill {
+  background: #ccfbf1;
+  color: #0f766e;
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.funnel-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* ---------------- ALERTAS CRÍTICAS ---------------- */
+.alert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 440px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.alert-item {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  background: #ffffff;
+  border-left: 4px solid #ea580c;
+}
+
+.alert-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.alert-title svg {
+  color: #ea580c;
+  flex-shrink: 0;
+}
+
+.alert-title strong {
+  flex: 1;
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.alert-item p {
+  margin: 6px 0 3px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #475569;
+}
+
+.alert-item span:not(.badge) {
+  font-size: 11.5px;
+  color: #64748b;
+}
+
+/* ---------------- BADGES & PILLS ---------------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  font-size: 11px;
+  font-weight: 800;
+  border-radius: 999px;
+}
+
+.badge.high { background: #fee2e2; color: #991b1b; }
+.badge.mid { background: #fef3c7; color: #92400e; }
+.badge.low { background: #dcfce7; color: #166534; }
+
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+/* ---------------- MINI STAT CARDS (ADMISIÓN) ---------------- */
+.school-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.mini-stat-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  background: #ffffff;
+}
+
+.mini-stat-card h4 {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #0f172a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-ratios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  text-align: center;
+}
+
+.ratio-lbl {
+  display: block;
+  font-size: 9.5px;
+  color: #64748b;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ratio-val {
+  font-size: 14px;
+  font-weight: 850;
+  line-height: 1.2;
+}
+
+.text-blue { color: #2563eb; }
+.text-teal { color: #0f766e; }
+.text-purple { color: #7c3aed; }
+.text-green { color: #16a34a; }
+.text-amber { color: #d97706; }
+
+.progress-bar-wrap {
+  height: 6px;
+  background: #f1f5f9;
+  border-radius: 999px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(to right, #0f766e, #2563eb);
+  border-radius: 999px;
+}
+
+/* ---------------- =======================================
+   TERRITORIO Y RUTAS GIS (AMPLIADO Y ESPACIOSO)
+   ======================================================= */
+.gis-tab-view {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gis-controls-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 14px 18px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.gis-controls-left,
+.gis-controls-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.control-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.pills-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.pill-btn {
+  padding: 5px 11px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.pill-btn:hover {
+  border-color: #0f766e;
+  color: #0f766e;
+}
+
+.pill-btn.active {
+  background: #0f766e;
+  border-color: #0f766e;
+  color: #ffffff;
+}
+
+.gis-select {
+  min-height: 32px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 4px 10px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.segmented {
+  display: flex;
+  background: #f1f5f9;
+  padding: 3px;
+  border-radius: 8px;
+  gap: 2px;
+}
+
+.segmented button {
+  padding: 5px 11px;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 750;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.segmented button.active {
+  background: #ffffff;
+  color: #0f172a;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+}
+
+.toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 750;
+  color: #ea580c;
+  background: #fff7ed;
+  border: 1px solid #ffedd5;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+.toggle-label input {
+  cursor: pointer;
+  accent-color: #ea580c;
+}
+
+/* WORKSPACE GRID: MAPA EXTENDIDO + SIDEBAR */
+.gis-workspace-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 16px;
+  align-items: start;
+}
+
+.gis-map-container {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.map-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.map-status strong {
+  color: #0f172a;
+  font-size: 14px;
+}
+
+.map-status span {
+  color: #64748b;
+  font-size: 12.5px;
+}
+
+.map-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-label {
+  font-size: 11px;
+  color: #64748b;
+  font-weight: 700;
+}
+
+.legend-gradient {
+  width: 110px;
+  height: 8px;
+  border-radius: 999px;
+}
+
+.svg-map-wrapper {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+.expanded-gis-svg {
+  width: 100%;
+  height: auto;
+  min-height: 520px;
+  display: block;
+}
+
+.district-path {
+  cursor: pointer;
+  transition: fill 0.15s ease, stroke 0.15s ease, opacity 0.15s ease;
+}
+
+.district-path:hover {
+  fill: #f97316 !important;
+  opacity: 0.95;
+  stroke: #ffffff;
+  stroke-width: 1.5;
+}
+
+.district-path.selected {
+  fill: #ea580c !important;
+  stroke: #0f172a;
+  stroke-width: 2.5;
+}
+
+/* Corredores y rutas animadas */
+.flow-path {
+  animation: flowAnim 1.5s linear infinite;
+}
+
+@keyframes flowAnim {
+  from { stroke-dashoffset: 16; }
+  to { stroke-dashoffset: 0; }
+}
+
+.pulse-ring {
+  animation: pulsePin 2s infinite ease-out;
+  transform-origin: center;
+}
+
+@keyframes pulsePin {
+  0% { r: 6; opacity: 0.8; }
+  100% { r: 22; opacity: 0; }
+}
+
+.campus-label {
+  filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.9));
+}
+
+/* GIS SIDEBAR */
+.gis-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.district-detail-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.detail-tag {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #0f766e;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.district-detail-card h3 {
+  margin: 0 0 2px;
+  font-size: 18px;
+  font-weight: 850;
+  color: #0f172a;
+}
+
+.detail-sub {
+  margin: 0 0 14px;
+  color: #64748b;
+  font-size: 12px;
+}
+
+.detail-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.stat-pill-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.stat-pill-label {
+  display: block;
+  font-size: 10px;
+  color: #64748b;
+  text-transform: uppercase;
+  font-weight: 750;
+}
+
+.stat-pill-val {
+  display: block;
+  margin-top: 3px;
+  font-size: 16px;
+  font-weight: 850;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* RANKING SIDEBAR BOX */
+.gis-ranking-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+.ranking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.ranking-header h4 {
+  margin: 0;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.ranking-header span {
+  font-size: 11.5px;
+  color: #64748b;
+}
+
+.ranking-scroll-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 340px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.ranking-row-item {
+  display: grid;
+  grid-template-columns: 24px 1fr 50px;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  border: 1px solid transparent;
+}
+
+.ranking-row-item:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.ranking-row-item.active {
+  background: #f0fdfa;
+  border-color: #5eead4;
+}
+
+.row-rank-num {
+  font-size: 11px;
+  font-weight: 800;
+  color: #94a3b8;
+}
+
+.row-content {
+  min-width: 0;
+}
+
+.row-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  margin-bottom: 3px;
+}
+
+.district-name {
+  font-size: 12px;
+  font-weight: 750;
+  color: #1e293b;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.province-name {
+  font-size: 10.5px;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+.mini-track {
+  height: 5px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.mini-fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.row-value {
+  font-size: 12px;
+  font-weight: 850;
+  color: #0f172a;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- =======================================
+   TABLA INTERACTIVA & EXPLORADOR DE CARRERAS
+   ======================================================= */
+.table-search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 12.5px;
+  color: #475569;
+}
+
+.table-hint {
+  font-size: 11.5px;
+  color: #64748b;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  max-width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.interactive-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.interactive-table th,
+.interactive-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #edf2f7;
+  text-align: left;
+}
+
+.interactive-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.interactive-table th.sortable {
+  cursor: pointer;
+}
+
+.interactive-table th.sortable:hover {
+  background: #f1f5f9;
+  color: #0f766e;
+}
+
+.interactive-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.interactive-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.school-cell strong {
+  display: block;
+  color: #0f172a;
+  font-size: 13px;
+}
+
+.cell-sub {
+  font-size: 11px;
+  color: #64748b;
+}
+
+.pct-badge {
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.empty-cell {
+  text-align: center !important;
+  padding: 30px !important;
+  color: #64748b;
+}
+
+/* ---------------- RESPONSIVE BREAKPOINTS ---------------- */
+@media (max-width: 1200px) {
+  .kpi-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-2-cols,
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .school-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gis-workspace-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .app-header {
+    padding-inline: 12px;
+  }
+
+  .global-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .school-cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bar-line {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .bar-number {
+    text-align: left;
+  }
+
+  .gis-controls-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

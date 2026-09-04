@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+data/uncp.sqlite3
+data/uncp.sqlite3-*
+data/datasets/
+observatorio-uncp/node_modules/
+observatorio-uncp/dist/

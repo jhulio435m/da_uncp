@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Observatorio de Acceso, Permanencia y Bienestar UNCP",
-    "generated_at": "2026-09-03T15:13:08",
+    "generated_at": "2026-09-04T16:27:15",
     "source": "Plataforma Nacional de Datos Abiertos - busqueda UNCP",
     "source_url": "https://www.datosabiertos.gob.pe/?query=uncp&sort_by=changed&sort_order=DESC",
     "storage": "SQLite (datos agregados exportados a JSON)",
